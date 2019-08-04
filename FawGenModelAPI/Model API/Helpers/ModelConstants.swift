@@ -30,9 +30,7 @@ public struct ModelConstants  {
     public static let wantedLeftTriGrams = "WantedLeftTriGrams.txt"
     public static let wantedLeftFourGrams = "WantedLeftFourGrams.txt"
     public static let wantedRightFourGrams = "WantedRightFourGrams.txt"
-    
-    public static let numberOfClusters = 194 
-    
+        
     
     public static let maxInAppLength = 13 // the max length if a particular length not requested
     public static let maxLength = 16 // This number depends on the biggest number of WordsLength (16Letter.txt)
@@ -44,6 +42,10 @@ public struct ModelConstants  {
     public static let minAlgo: Double = 1.0
     public static let maxAlgo: Double = 5.0
     public static let minMaxAlgo = (minAlgo...maxAlgo)
+    
+    public static let numberOfClusters = 194 // from the number of files imported
+    public static let numbCentroids = 5 // 5 is the default
+    public static let numberOfNeighbors = 5 // default now: 5 --> ADJUST THIS NUMBER later if issues
     
     
     
@@ -57,3 +59,8 @@ public struct StopWords {
 }
 
 
+
+// MARK: - Public Enum
+public enum SimilarityType {
+    case cosine, euclidean
+}

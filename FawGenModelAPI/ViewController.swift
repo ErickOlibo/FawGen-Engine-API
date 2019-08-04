@@ -27,6 +27,9 @@ class ViewController: UIViewController {
         
         print("RandomBiGramstart: \(grams.randomBiGramStart)")
         print("Has Passed Grams checker for Defkut: \(grams.hasPassedGramsChecker("Defkut"))")
+        
+        let kNN = KNearestNeighbors(model)
+        print("KNN ==> Centroids Count: \(kNN.centroids.count)")
 
         
         
