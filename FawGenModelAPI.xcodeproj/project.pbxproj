@@ -257,6 +257,7 @@
 		A71AA87722F70B8C00BE7F55 /* MarkovChainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */; };
 		A71AA87922F70E4600BE7F55 /* Flavorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87822F70E4600BE7F55 /* Flavorizer.swift */; };
 		A71AA87C22F70F9900BE7F55 /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87B22F70F9900BE7F55 /* WordBreak.swift */; };
+		A71AA87E22F722C700BE7F55 /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87D22F722C700BE7F55 /* Persistent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -512,6 +513,7 @@
 		A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainer.swift; sourceTree = "<group>"; };
 		A71AA87822F70E4600BE7F55 /* Flavorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flavorizer.swift; sourceTree = "<group>"; };
 		A71AA87B22F70F9900BE7F55 /* WordBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
+		A71AA87D22F722C700BE7F55 /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -842,6 +844,7 @@
 			isa = PBXGroup;
 			children = (
 				A71AA84722F6C69300BE7F55 /* FawGenModel.swift */,
+				A71AA87D22F722C700BE7F55 /* Persistent.swift */,
 			);
 			path = "FawGen Model";
 			sourceTree = "<group>";
@@ -1232,6 +1235,7 @@
 			files = (
 				A71AA87C22F70F9900BE7F55 /* WordBreak.swift in Sources */,
 				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
+				A71AA87E22F722C700BE7F55 /* Persistent.swift in Sources */,
 				A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */,
 				A71AA86A22F7018C00BE7F55 /* Swapper.swift in Sources */,
 				A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */,
