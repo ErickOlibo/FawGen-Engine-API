@@ -243,6 +243,7 @@
 		A71AA84F22F6C9BD00BE7F55 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA84E22F6C9BD00BE7F55 /* UIDeviceExtensions.swift */; };
 		A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */; };
 		A71AA85322F6CE4C00BE7F55 /* FawGenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85222F6CE4C00BE7F55 /* FawGenConstants.swift */; };
+		A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85722F6DA4E00BE7F55 /* Grams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -484,6 +485,7 @@
 		A71AA84E22F6C9BD00BE7F55 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenientExtensions.swift; sourceTree = "<group>"; };
 		A71AA85222F6CE4C00BE7F55 /* FawGenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FawGenConstants.swift; sourceTree = "<group>"; };
+		A71AA85722F6DA4E00BE7F55 /* Grams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -825,6 +827,7 @@
 		A71AA85422F6D98400BE7F55 /* Grams */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA85722F6DA4E00BE7F55 /* Grams.swift */,
 			);
 			path = Grams;
 			sourceTree = "<group>";
@@ -1124,6 +1127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
 				A71AA66F22F6C4BD00BE7F55 /* ViewController.swift in Sources */,
 				A71AA84B22F6C6A700BE7F55 /* ModelConstants.swift in Sources */,
 				A71AA84822F6C69300BE7F55 /* FawGenModel.swift in Sources */,
