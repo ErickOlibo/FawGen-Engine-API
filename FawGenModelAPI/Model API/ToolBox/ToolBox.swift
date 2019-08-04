@@ -19,14 +19,18 @@ class ToolBox {
     private weak var grams: Grams!
     private weak var kNN: KNearestNeighbors!
     
+    // *** NOTE: are the variable below supposed to be public? (i.e. private(set))
     private(set) var statements: Set<String>
     private(set) var nameToVector: [String : Vector]
     private(set) var synonymsCorpus: Set<String>
     private(set) var synonymsWordsRank: [String : [String]]
     private(set) var combinedVocabulary: Set<String>
     
+    // Public Randomizers
     private(set) var swapper: Swapper
     private(set) var substituter: Substituter
+    private(set) var concatenater: Concatenater
+    
     
     private let simpleAssistModel: SimpleAssistModel
     private let synonymsFinder: SynonymsFinder
@@ -42,6 +46,7 @@ class ToolBox {
         synonymsFinder = SynonymsFinder(model)
         swapper = Swapper(model, grams: grams)
         substituter = Substituter(model, grams: grams)
+        concatenater = Concatenater(model, grams: grams)
         
     }
     
