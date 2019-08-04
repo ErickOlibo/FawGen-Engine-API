@@ -246,6 +246,7 @@
 		A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85A22F6EEEE00BE7F55 /* KNearestNeighbors.swift */; };
 		A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85D22F6F50100BE7F55 /* ToolBox.swift */; };
 		A71AA86122F6F74A00BE7F55 /* NLProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */; };
+		A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86322F6F9D700BE7F55 /* SimpleAssistModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -490,6 +491,7 @@
 		A71AA85A22F6EEEE00BE7F55 /* KNearestNeighbors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNearestNeighbors.swift; sourceTree = "<group>"; };
 		A71AA85D22F6F50100BE7F55 /* ToolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBox.swift; sourceTree = "<group>"; };
 		A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLProcessor.swift; sourceTree = "<group>"; };
+		A71AA86322F6F9D700BE7F55 /* SimpleAssistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAssistModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -866,6 +868,7 @@
 		A71AA86222F6F8D100BE7F55 /* Simple Assist Model */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA86322F6F9D700BE7F55 /* SimpleAssistModel.swift */,
 			);
 			path = "Simple Assist Model";
 			sourceTree = "<group>";
@@ -1166,6 +1169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
+				A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */,
 				A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */,
 				A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */,
 				A71AA66F22F6C4BD00BE7F55 /* ViewController.swift in Sources */,

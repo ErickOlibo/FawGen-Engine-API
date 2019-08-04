@@ -25,7 +25,7 @@ class ToolBox {
     private(set) var synonymsWordsRank: [String : [String]]
     private(set) var combinedVocabulary: Set<String>
     
-    private(set) var nlp: NLProcessor
+    private let simpleAssistModel: SimpleAssistModel
     
     init(_ model: FawGenModel, grams: Grams, kNN: KNearestNeighbors) {
         
@@ -34,7 +34,7 @@ class ToolBox {
         synonymsCorpus = model.synonymsCorpus
         synonymsWordsRank = model.synonymsWordsRank
         combinedVocabulary = model.combinedVocabulary
-        nlp = NLProcessor()
+        simpleAssistModel = SimpleAssistModel(model, kNN: kNN)
         
     }
     
