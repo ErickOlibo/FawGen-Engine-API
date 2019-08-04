@@ -41,6 +41,30 @@ class FawGenConstants {
     
     public func initialize(_ model: FawGenModel) {
         print("Trying to Initialize Shared model in FawGenConstants")
+        statements = model.statements
+        biGramsStart = model.biGramsStart
+        triGramsStart = model.triGramsStart
+        wantedLeftBiGramsSet = model.wantedLeftBiGramsSet
+        wantedLeftTriGramsSet = model.wantedLeftTriGramsSet
+        wantedLeftFourGramsSet = model.wantedLeftFourGramsSet
+        wantedRightFourGramsSet = model.wantedRightFourGramsSet
+        finalCorpus = model.finalCorpus
+        synonymsCorpus = model.synonymsCorpus
+        synonymsWordsRank = model.synonymsWordsRank
+        biGramFrequencies = model.biGramFrequencies
+        
+        combinedVocabulary = model.combinedVocabulary
+        vectorsNameByLength = model.vectorsNameByLength
+        combinedNameByLength = model.combinedNameByLength
+        
+        biGramChains = model.biGramChains
+        triGramChains = model.triGramChains
+        
+        nameToVector = model.nameToVector
+        collectionOfVectors = model.collectionOfVectors
+        centroids = model.centroids
+        classificationByCentroids = model.classificationByCentroids
+        print("[FawGenConstants] Statements size: \(statements.count)")
         
     }
 }

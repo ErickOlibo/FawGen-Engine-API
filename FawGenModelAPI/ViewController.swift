@@ -15,14 +15,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let model = FawGenModel()
         model.delegate = self
         
         model.initialize()
         printModelCounts(model)
-        let fawgenConstants = FawGenConstants.shared
-        fawgenConstants.initialize(model)
+//        let fawgenConstants = FawGenConstants.shared
+//        fawgenConstants.initialize(model)
+//        print("Shared 1 - FinalCorpus: \(fawgenConstants.finalCorpus.count)")
+//        let fgConstants = FawGenConstants.shared
+//        print("Shared 2 - FinalCorpus: \(fgConstants.finalCorpus.count)")
         
         
     }
@@ -54,6 +57,7 @@ extension ViewController {
         print("[collectionOfVectors] Size: \(model.collectionOfVectors.count)")
         print("[centroids] Size: \(model.centroids.count)")
         print("[classificationByCentroids] Size: \(model.classificationByCentroids.count)")
+        
         
     }
     
