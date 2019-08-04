@@ -63,7 +63,7 @@ class FawGenModel {
             let number = classificationByCentroids.map{ $0.count }.reduce(0, +)
             let percent = Int((Double(number) / corpusSize) * 100)
             let thisPercent = 37 + (percent * 63) / 100
-            //delegate?.FawGenModelLoadingCompletion(at: thisPercent)
+            delegate?.FawGenModelLoadingCompletion(at: thisPercent)
         }
     }
     

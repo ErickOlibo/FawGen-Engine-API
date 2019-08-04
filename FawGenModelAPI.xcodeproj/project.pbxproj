@@ -239,6 +239,9 @@
 		A71AA84522F6C63B00BE7F55 /* 0Letter.txt in Resources */ = {isa = PBXBuildFile; fileRef = A71AA83422F6C63B00BE7F55 /* 0Letter.txt */; };
 		A71AA84822F6C69300BE7F55 /* FawGenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA84722F6C69300BE7F55 /* FawGenModel.swift */; };
 		A71AA84B22F6C6A700BE7F55 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA84A22F6C6A700BE7F55 /* ModelConstants.swift */; };
+		A71AA84D22F6C9AE00BE7F55 /* TypeAliasModelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA84C22F6C9AD00BE7F55 /* TypeAliasModelAPI.swift */; };
+		A71AA84F22F6C9BD00BE7F55 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA84E22F6C9BD00BE7F55 /* UIDeviceExtensions.swift */; };
+		A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -476,6 +479,9 @@
 		A71AA83422F6C63B00BE7F55 /* 0Letter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0Letter.txt; sourceTree = "<group>"; };
 		A71AA84722F6C69300BE7F55 /* FawGenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FawGenModel.swift; sourceTree = "<group>"; };
 		A71AA84A22F6C6A700BE7F55 /* ModelConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelConstants.swift; sourceTree = "<group>"; };
+		A71AA84C22F6C9AD00BE7F55 /* TypeAliasModelAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAliasModelAPI.swift; sourceTree = "<group>"; };
+		A71AA84E22F6C9BD00BE7F55 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenientExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,7 +538,7 @@
 			isa = PBXGroup;
 			children = (
 				A71AA84622F6C69300BE7F55 /* FawGen Model */,
-				A71AA84922F6C6A700BE7F55 /* Constants */,
+				A71AA84922F6C6A700BE7F55 /* Helpers */,
 				A71AA69B22F6C5D000BE7F55 /* Vectors */,
 				A71AA69E22F6C62600BE7F55 /* Centroids */,
 				A71AA82322F6C63B00BE7F55 /* Words by Length */,
@@ -801,12 +807,15 @@
 			path = "FawGen Model";
 			sourceTree = "<group>";
 		};
-		A71AA84922F6C6A700BE7F55 /* Constants */ = {
+		A71AA84922F6C6A700BE7F55 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA84E22F6C9BD00BE7F55 /* UIDeviceExtensions.swift */,
+				A71AA84C22F6C9AD00BE7F55 /* TypeAliasModelAPI.swift */,
 				A71AA84A22F6C6A700BE7F55 /* ModelConstants.swift */,
+				A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */,
 			);
-			path = Constants;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1107,8 +1116,11 @@
 				A71AA66F22F6C4BD00BE7F55 /* ViewController.swift in Sources */,
 				A71AA84B22F6C6A700BE7F55 /* ModelConstants.swift in Sources */,
 				A71AA84822F6C69300BE7F55 /* FawGenModel.swift in Sources */,
+				A71AA84D22F6C9AE00BE7F55 /* TypeAliasModelAPI.swift in Sources */,
 				A71AA69D22F6C5D000BE7F55 /* Vector.swift in Sources */,
 				A71AA66D22F6C4BD00BE7F55 /* AppDelegate.swift in Sources */,
+				A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */,
+				A71AA84F22F6C9BD00BE7F55 /* UIDeviceExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

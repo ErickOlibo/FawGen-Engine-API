@@ -41,6 +41,10 @@ public struct ModelConstants  {
     public static let minMaxWordLength = (minLength...maxLength)
     public static let minMaxInAppWordLength = (minLength...maxInAppLength)
     
+    public static let minAlgo: Double = 1.0
+    public static let maxAlgo: Double = 5.0
+    public static let minMaxAlgo = (minAlgo...maxAlgo)
+    
     
     
 }
@@ -53,17 +57,3 @@ public struct StopWords {
 }
 
 
-extension Date {
-    public var toNowProcessDuration: (String, Double, Int) {
-        let end = Date()
-        let interval = end.timeIntervalSince(self)
-        let milliSecs = Int(interval * 1000)
-        let secs = Double(Int(interval * 100)) / 100
-        let time = Int(interval)
-        let hours = time / 3600
-        let minutes = time / 60 % 60
-        let seconds = time % 60
-        let finalTime = String(format: "\(hours)h \(minutes)m \(seconds)s")
-        return (finalTime, secs, milliSecs)
-    }
-}
