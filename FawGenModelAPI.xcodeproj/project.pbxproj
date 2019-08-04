@@ -247,6 +247,7 @@
 		A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85D22F6F50100BE7F55 /* ToolBox.swift */; };
 		A71AA86122F6F74A00BE7F55 /* NLProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */; };
 		A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86322F6F9D700BE7F55 /* SimpleAssistModel.swift */; };
+		A71AA86722F6FEBF00BE7F55 /* SynonymsFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86622F6FEBF00BE7F55 /* SynonymsFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -492,6 +493,7 @@
 		A71AA85D22F6F50100BE7F55 /* ToolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBox.swift; sourceTree = "<group>"; };
 		A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLProcessor.swift; sourceTree = "<group>"; };
 		A71AA86322F6F9D700BE7F55 /* SimpleAssistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAssistModel.swift; sourceTree = "<group>"; };
+		A71AA86622F6FEBF00BE7F55 /* SynonymsFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymsFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,6 +549,7 @@
 		A71AA68122F6C56600BE7F55 /* Model API */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA86522F6FEAA00BE7F55 /* Synonyms Finder */,
 				A71AA86222F6F8D100BE7F55 /* Simple Assist Model */,
 				A71AA85F22F6F72500BE7F55 /* NLP */,
 				A71AA85C22F6F4F200BE7F55 /* ToolBox */,
@@ -873,6 +876,14 @@
 			path = "Simple Assist Model";
 			sourceTree = "<group>";
 		};
+		A71AA86522F6FEAA00BE7F55 /* Synonyms Finder */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA86622F6FEBF00BE7F55 /* SynonymsFinder.swift */,
+			);
+			path = "Synonyms Finder";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1173,6 +1184,7 @@
 				A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */,
 				A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */,
 				A71AA66F22F6C4BD00BE7F55 /* ViewController.swift in Sources */,
+				A71AA86722F6FEBF00BE7F55 /* SynonymsFinder.swift in Sources */,
 				A71AA84B22F6C6A700BE7F55 /* ModelConstants.swift in Sources */,
 				A71AA84822F6C69300BE7F55 /* FawGenModel.swift in Sources */,
 				A71AA84D22F6C9AE00BE7F55 /* TypeAliasModelAPI.swift in Sources */,

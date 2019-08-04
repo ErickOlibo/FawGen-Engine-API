@@ -26,6 +26,7 @@ class ToolBox {
     private(set) var combinedVocabulary: Set<String>
     
     private let simpleAssistModel: SimpleAssistModel
+    private let synonymsFinder: SynonymsFinder
     
     init(_ model: FawGenModel, grams: Grams, kNN: KNearestNeighbors) {
         
@@ -35,6 +36,7 @@ class ToolBox {
         synonymsWordsRank = model.synonymsWordsRank
         combinedVocabulary = model.combinedVocabulary
         simpleAssistModel = SimpleAssistModel(model, kNN: kNN)
+        synonymsFinder = SynonymsFinder(model)
         
     }
     
