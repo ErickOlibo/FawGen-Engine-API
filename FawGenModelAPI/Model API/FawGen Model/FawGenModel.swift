@@ -99,13 +99,8 @@ class FawGenModel {
         triGramChains = triGramsStartChains()
         delegate?.FawGenModelLoadingCompletion(at: 37)
         
-        // Load and assign WordToVecModel
         loadAndAssignWordToVecModel()
-        
-//        setupGrams()
-//        setupKNN()
-//        setupToolBox()
-        
+
     }
     
     
@@ -115,34 +110,6 @@ class FawGenModel {
 
 
 extension FawGenModel {
-    
-//    private func setupToolBox() {
-//        toolBox = ToolBox(statements, nameToVector: nameToVector, corpus: synonymsCorpus, wordsRank: synonymsWordsRank, vocabulary: finalCorpus, kNN: kNN, grams: grams)
-//        
-//        
-//    }
-//    
-//    private func setupGrams() {
-//        grams.biGramChains = biGramChains
-//        grams.triGramChains = triGramChains
-//        
-//        grams.biGramFrequencies = biGramFrequencies
-//        grams.biGramStart = biGramsStart
-//        grams.triGramStart = triGramsStart
-//        
-//        grams.wantedLeftBiGrams = wantedLeftBiGramsSet
-//        grams.wantedLeftTriGrams = wantedLeftTriGramsSet
-//        grams.wantedLeftFourGrams = wantedLeftFourGramsSet
-//        grams.wantedRightFourGrams = wantedRightFourGramsSet
-//        
-//    }
-//    
-//    
-//    private func setupKNN() {
-//        kNN.centroids = centroids
-//        kNN.classificationByCentroids = classificationByCentroids
-//        kNN.collectionOfVectors = collectionOfVectors
-//    }
     
     // MARK: - Load From Files Methods
     private func loadListOfStatements() -> Set<String> {
@@ -190,18 +157,34 @@ extension FawGenModel {
         var wordsRank = [String : [String]]()
         var corpus = Set<String>()
         let listRank = getBundleFileRowsAsSet(from: ModelConstants.synonymsRanked)
-        corpus = Set(listRank.map { $0.components(separatedBy: .whitespaces)[0] })
-        wordsRank = listRank.reduce(into: [:]) {result, item in
-            var comp = item.components(separatedBy: .whitespaces)
-            let word = comp.removeFirst()
-            result[word] = comp
-            } as! [String : [String]]
+        
+        // *** REWRITE ALL Components
+        for line in listRank {
+            let comp = line.components(separatedBy: .whitespaces)
+            if comp.count >= 2 {
+                let word = Array(comp.prefix(1))[0]
+                let ranks = Array(comp.suffix(comp.count - 1))
+                corpus.insert(word)
+                wordsRank[word] = ranks
+            }
+        }
+        // *** END
+
+//        corpus = Set(listRank.map { $0.components(separatedBy: .whitespaces)[0] })
+//        wordsRank = listRank.reduce(into: [:]) {result, item in
+//            var comp = item.components(separatedBy: .whitespaces)
+//            let word = comp.removeFirst()
+//            result[word] = comp
+//            } as! [String : [String]]
+        
         return (wordsRank, corpus)
     }
     
     private func loadBiGramFrequencyTable() -> [String : Int] {
         var freqTable = [String : Int]()
         let rows = getBundleFileRowsAsSet(from: ModelConstants.biGramFreqTable)
+        
+        // *** CHECKED
         for line in rows {
             let comp = line.components(separatedBy: .whitespaces)
             guard comp.count == 2, let value = Int(comp[1])   else { continue }
@@ -244,11 +227,15 @@ extension FawGenModel {
     private func biGramsStartChains() -> Chains {
         let rows = getBundleFileRowsAsSet(from: ModelConstants.markovBiGramChains)
         var chains = Chains()
+        
+        // CHECKED
         for row in rows {
-            var comp = row.components(separatedBy: .whitespaces)
-            let biGram = comp.removeFirst()
+            let comp = row.components(separatedBy: .whitespaces)
+            
+            let biGram = Array(comp.prefix(1))[0]
+            let chain = Array(comp.suffix(comp.count - 1))
             guard biGram.count == 2 else { continue }
-            chains[biGram] = comp
+            chains[biGram] = chain
         }
         return chains
     }
@@ -256,11 +243,15 @@ extension FawGenModel {
     private func triGramsStartChains() -> Chains {
         let rows = getBundleFileRowsAsSet(from: ModelConstants.markovTriGramChains)
         var chains = Chains()
+        
+        // CHECKED
         for row in rows {
-            var comp = row.components(separatedBy: .whitespaces)
-            let triGram = comp.removeFirst()
+            let comp = row.components(separatedBy: .whitespaces)
+            
+            let triGram = Array(comp.prefix(1))[0]
+            let chain = Array(comp.suffix(comp.count - 1))
             guard triGram.count == 3 else { continue }
-            chains[triGram] = comp
+            chains[triGram] = chain
         }
         return chains
     }
@@ -282,13 +273,19 @@ extension FawGenModel {
     /// - Parameter filename: The name of the file from which rows are to be extracted.
     /// - Returns: The rows from the file as a Set of Strings.
     private func getBundleFileRowsAsSet(from filename: String) -> Set<String> {
-        let result = Set<String>()
+        var rows = Set<String>()
+        
         let comp = filename.components(separatedBy:".")
-        if comp.count != 2 { return result }
+        if comp.count != 2 { return Set<String>() }
         let fileURL = Bundle.main.url(forResource:comp[0], withExtension: comp[1])
         let wordsList = try! String(contentsOf: fileURL!, encoding: String.Encoding.utf8)
-        var rows = Set(wordsList.components(separatedBy: NSCharacterSet.newlines))
-        rows.remove("")
+        
+        let listArray = wordsList.components(separatedBy: NSCharacterSet.newlines)
+        for line in listArray {
+            if line.count == 0 { continue }
+            rows.insert(line)
+        }
+
         return rows
     }
     
@@ -342,10 +339,12 @@ extension FawGenModel {
     
     /// Returns a Vector type from a clusters row line
     private func getVector(from line: String) -> Vector? {
-        var comp = line.components(separatedBy: .whitespaces)
-        let word = comp.removeFirst()
+        
+        let comp = line.components(separatedBy: .whitespaces)
+        let word = Array(comp.prefix(1))[0]
+        let coordinates = Array(comp.suffix(comp.count - 1))
         if word.count < ModelConstants.minCharacter || word.count > ModelConstants.maxLength { return nil }
-        let data = comp.map{ Double($0)! }
+        let data = coordinates.map{ Double($0)! }
         return Vector(data, name: word)
     }
     

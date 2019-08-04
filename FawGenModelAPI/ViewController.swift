@@ -11,6 +11,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Outlets
+    @IBOutlet weak var randomizeBtn: UIButton!
+    @IBOutlet weak var listOfWordsLbl: UILabel!
+    
+    // Actions
+    @IBAction func tappedRandomized(_ sender: UIButton) {
+        let start = Date()
+        getAllTypesOfRandomWords()
+        print("ViewController ==> [tappedRandomize] - \(start.toNowProcessDuration)")
+    }
+    
+
+    
     // MARK: - Properties
     var start = Date()
     var persistent: Persistent!
@@ -25,11 +38,10 @@ class ViewController: UIViewController {
         let grams = Grams(model)
         let kNN = KNearestNeighbors(model)
         let toolBox = ToolBox(model, grams: grams, kNN: kNN)
-        persistent = Persistent(model, kNN, toolBox)
+        persistent = Persistent(model, kNN, toolBox, grams)
     
         printDeviceInfo()
-        getAllTypesOfRandomWords()
-        
+        randomizeBtn.setTitle("Randomize", for: .normal)
     }
 
 
@@ -68,7 +80,7 @@ extension ViewController {
     private func printResult(list: [MadeUpWord]) {
         print("PRINTSIZE OF LIST: \(list.count)")
         let titlesList = list.map{ $0.title }.joined(separator: " - ")
-        //listOfWordsLabel.text = titlesList
+        listOfWordsLbl.text = titlesList
         print("\(titlesList)\n")
     }
     
