@@ -255,6 +255,8 @@
 		A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87222F706A700BE7F55 /* Substituter.swift */; };
 		A71AA87522F7090300BE7F55 /* Concatenater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87422F7090300BE7F55 /* Concatenater.swift */; };
 		A71AA87722F70B8C00BE7F55 /* MarkovChainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */; };
+		A71AA87922F70E4600BE7F55 /* Flavorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87822F70E4600BE7F55 /* Flavorizer.swift */; };
+		A71AA87C22F70F9900BE7F55 /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87B22F70F9900BE7F55 /* WordBreak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -508,6 +510,8 @@
 		A71AA87222F706A700BE7F55 /* Substituter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substituter.swift; sourceTree = "<group>"; };
 		A71AA87422F7090300BE7F55 /* Concatenater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concatenater.swift; sourceTree = "<group>"; };
 		A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainer.swift; sourceTree = "<group>"; };
+		A71AA87822F70E4600BE7F55 /* Flavorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flavorizer.swift; sourceTree = "<group>"; };
+		A71AA87B22F70F9900BE7F55 /* WordBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -563,6 +567,7 @@
 		A71AA68122F6C56600BE7F55 /* Model API */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA87A22F70F8800BE7F55 /* Word Break */,
 				A71AA86B22F703C800BE7F55 /* Made Up Word */,
 				A71AA86822F7016300BE7F55 /* Randomizers */,
 				A71AA86522F6FEAA00BE7F55 /* Synonyms Finder */,
@@ -907,6 +912,7 @@
 				A71AA87222F706A700BE7F55 /* Substituter.swift */,
 				A71AA87422F7090300BE7F55 /* Concatenater.swift */,
 				A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */,
+				A71AA87822F70E4600BE7F55 /* Flavorizer.swift */,
 			);
 			path = Randomizers;
 			sourceTree = "<group>";
@@ -919,6 +925,14 @@
 				A71AA86E22F703F500BE7F55 /* RequestedQuality.swift */,
 			);
 			path = "Made Up Word";
+			sourceTree = "<group>";
+		};
+		A71AA87A22F70F8800BE7F55 /* Word Break */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA87B22F70F9900BE7F55 /* WordBreak.swift */,
+			);
+			path = "Word Break";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1216,6 +1230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71AA87C22F70F9900BE7F55 /* WordBreak.swift in Sources */,
 				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
 				A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */,
 				A71AA86A22F7018C00BE7F55 /* Swapper.swift in Sources */,
@@ -1237,6 +1252,7 @@
 				A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */,
 				A71AA86122F6F74A00BE7F55 /* NLProcessor.swift in Sources */,
 				A71AA84F22F6C9BD00BE7F55 /* UIDeviceExtensions.swift in Sources */,
+				A71AA87922F70E4600BE7F55 /* Flavorizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

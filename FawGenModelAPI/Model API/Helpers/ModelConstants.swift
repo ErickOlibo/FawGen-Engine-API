@@ -71,6 +71,12 @@ public enum SimilarityType {
     case cosine, euclidean
 }
 
+/// the different possibilities when a word has been broken down in the case
+/// of the flavorizer randomizer. it keeps a track on where each part originated from
+public enum BoundSide: String {
+    case left, center, right
+}
+
 
 /// Tells the type of Algorithm that was used to create a madeUpWord
 public enum MadeUpAlgo: String, CaseIterable, CustomStringConvertible, Codable {
