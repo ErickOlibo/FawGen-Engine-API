@@ -27,11 +27,7 @@ class ViewController: UIViewController {
         
         print("RandomBiGramstart: \(grams.randomBiGramStart)")
         print("Has Passed Grams checker for Defkut: \(grams.hasPassedGramsChecker("Defkut"))")
-//        let fawgenConstants = FawGenConstants.shared
-//        fawgenConstants.initialize(model)
-//        print("Shared 1 - FinalCorpus: \(fawgenConstants.finalCorpus.count)")
-//        let fgConstants = FawGenConstants.shared
-//        print("Shared 2 - FinalCorpus: \(fgConstants.finalCorpus.count)")
+
         
         
     }
