@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         
         model.initialize()
         printModelCounts(model)
+        let fawgenConstants = FawGenConstants.shared
+        fawgenConstants.initialize(model)
         
         
     }
