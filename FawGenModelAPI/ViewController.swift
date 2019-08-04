@@ -25,23 +25,21 @@ class ViewController: UIViewController {
 
     
     // MARK: - Properties
+    var difference = CGFloat()
     var start = Date()
     var persistent: Persistent!
+    
+    var launchView: StartingEngine!
+    var launchBackground = UIView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let model = FawGenModel()
-        model.delegate = self
-        model.initialize()
-        
-        let grams = Grams(model)
-        let kNN = KNearestNeighbors(model)
-        let toolBox = ToolBox(model, grams: grams, kNN: kNN)
-        persistent = Persistent(model, kNN, toolBox, grams)
     
         printDeviceInfo()
+        setpUpBackground()
         randomizeBtn.setTitle("Randomize", for: .normal)
+        loadModelToMemory()
+        
     }
 
 
@@ -87,13 +85,85 @@ extension ViewController {
     
 }
 
-
+// MARK: - Extension for animations Setup and running
+extension ViewController {
+    
+    private func loadModelToMemory() {
+        start = Date()
+        setupLaunchView()
+        animateAppear()
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            guard let self = self else { return }
+            let model = FawGenModel()
+            model.delegate = self
+            model.initialize()
+            
+            DispatchQueue.main.async { [weak self] in
+                let grams = Grams(model)
+                let kNN = KNearestNeighbors(model)
+                let toolBox = ToolBox(model, grams: grams, kNN: kNN)
+                self?.persistent = Persistent(model, kNN, toolBox, grams)
+                
+                print("from Queue to model: \(self!.start.toNowProcessDuration)")
+                self?.animateDissapear()
+            }
+        }
+    }
+    
+    
+    private func setpUpBackground() {
+        launchBackground = UIView(frame: self.view.bounds)
+        launchBackground.backgroundColor = .white
+        launchBackground.center = self.view.center
+        self.view.addSubview(launchBackground)
+    }
+    
+    private func setupLaunchView() {
+        let launchFrame = CGRect(x: 0, y: 0, width: 200, height: 300)
+        launchView = StartingEngine(frame: launchFrame)
+        
+        // Set the view offSet
+        let launchViewCenterX = self.view.center.x
+        let launchViewCenterY = self.view.bounds.height + (launchFrame.height / 2) + 10
+        let launchViewCenter = CGPoint(x: launchViewCenterX, y: launchViewCenterY)
+        launchView.center = launchViewCenter
+        self.view.addSubview(launchView)
+    }
+    
+    private func animateAppear() {
+        difference = self.view.center.y - launchView.center.y
+        UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.5, options: .curveEaseOut, animations: {
+            self.launchView.startAnimating()
+            self.launchView.transform = CGAffineTransform(translationX: 0, y: self.difference)
+        }) { (_) in
+            
+        }
+        
+    }
+    
+    private func animateDissapear() {
+        launchView.stopAnimating()
+        UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.9, options: .curveEaseIn, animations: {
+            self.launchView.transform = CGAffineTransform(translationX: 0, y: -self.difference)
+            self.launchBackground.alpha = 0
+        }) { (_) in
+            self.launchView.stopAnimating()
+            self.launchBackground.removeFromSuperview()
+            self.launchView.removeFromSuperview()
+        }
+    }
+    
+    
+}
 
 
 
 
 extension ViewController: FawGenModelDelegate {
     func FawGenModelLoadingCompletion(at percent: Int) {
+        DispatchQueue.main.async { [weak self] in
+            self?.launchView.progressBar.setProgressWithAnimationTo(percent)
+        }
         //print("[FawGenModelLoadingCompletion] at \(percent)%")
     }
     

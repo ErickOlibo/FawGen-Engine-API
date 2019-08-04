@@ -258,6 +258,99 @@
 		A71AA87922F70E4600BE7F55 /* Flavorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87822F70E4600BE7F55 /* Flavorizer.swift */; };
 		A71AA87C22F70F9900BE7F55 /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87B22F70F9900BE7F55 /* WordBreak.swift */; };
 		A71AA87E22F722C700BE7F55 /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87D22F722C700BE7F55 /* Persistent.swift */; };
+		A71AA8DF22F77B0B00BE7F55 /* ThreeGears_6@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88122F77B0B00BE7F55 /* ThreeGears_6@1x.png */; };
+		A71AA8E022F77B0B00BE7F55 /* ThreeGears_16@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88222F77B0B00BE7F55 /* ThreeGears_16@1x.png */; };
+		A71AA8E122F77B0B00BE7F55 /* ThreeGears_27@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88322F77B0B00BE7F55 /* ThreeGears_27@3x.png */; };
+		A71AA8E222F77B0B00BE7F55 /* ThreeGears_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88422F77B0B00BE7F55 /* ThreeGears_3@2x.png */; };
+		A71AA8E322F77B0B00BE7F55 /* ThreeGears_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88522F77B0B00BE7F55 /* ThreeGears_13@2x.png */; };
+		A71AA8E422F77B0B00BE7F55 /* ThreeGears_25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88622F77B0B00BE7F55 /* ThreeGears_25@2x.png */; };
+		A71AA8E522F77B0B00BE7F55 /* ThreeGears_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88722F77B0B00BE7F55 /* ThreeGears_29@2x.png */; };
+		A71AA8E622F77B0B00BE7F55 /* ThreeGears_20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88822F77B0B00BE7F55 /* ThreeGears_20@1x.png */; };
+		A71AA8E722F77B0B00BE7F55 /* ThreeGears_11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88922F77B0B00BE7F55 /* ThreeGears_11@3x.png */; };
+		A71AA8E822F77B0B00BE7F55 /* ThreeGears_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88A22F77B0B00BE7F55 /* ThreeGears_1@3x.png */; };
+		A71AA8E922F77B0B00BE7F55 /* ThreeGears_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88B22F77B0B00BE7F55 /* ThreeGears_1@2x.png */; };
+		A71AA8EA22F77B0B00BE7F55 /* ThreeGears_8@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88C22F77B0B00BE7F55 /* ThreeGears_8@1x.png */; };
+		A71AA8EB22F77B0B00BE7F55 /* ThreeGears_18@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88D22F77B0B00BE7F55 /* ThreeGears_18@1x.png */; };
+		A71AA8EC22F77B0B00BE7F55 /* ThreeGears_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88E22F77B0B00BE7F55 /* ThreeGears_11@2x.png */; };
+		A71AA8ED22F77B0B00BE7F55 /* ThreeGears_29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA88F22F77B0B00BE7F55 /* ThreeGears_29@3x.png */; };
+		A71AA8EE22F77B0B00BE7F55 /* ThreeGears_25@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89022F77B0B00BE7F55 /* ThreeGears_25@3x.png */; };
+		A71AA8EF22F77B0B00BE7F55 /* ThreeGears_4@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89122F77B0B00BE7F55 /* ThreeGears_4@1x.png */; };
+		A71AA8F022F77B0B00BE7F55 /* ThreeGears_14@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89222F77B0B00BE7F55 /* ThreeGears_14@1x.png */; };
+		A71AA8F122F77B0B00BE7F55 /* ThreeGears_13@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89322F77B0B00BE7F55 /* ThreeGears_13@3x.png */; };
+		A71AA8F222F77B0B00BE7F55 /* ThreeGears_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89422F77B0B00BE7F55 /* ThreeGears_3@3x.png */; };
+		A71AA8F322F77B0B00BE7F55 /* ThreeGears_22@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89522F77B0B00BE7F55 /* ThreeGears_22@1x.png */; };
+		A71AA8F422F77B0B00BE7F55 /* ThreeGears_27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89622F77B0B00BE7F55 /* ThreeGears_27@2x.png */; };
+		A71AA8F522F77B0B00BE7F55 /* ThreeGears_30@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89722F77B0B00BE7F55 /* ThreeGears_30@1x.png */; };
+		A71AA8F622F77B0B00BE7F55 /* ThreeGears_23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89822F77B0B00BE7F55 /* ThreeGears_23@2x.png */; };
+		A71AA8F722F77B0B00BE7F55 /* ThreeGears_7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89922F77B0B00BE7F55 /* ThreeGears_7@3x.png */; };
+		A71AA8F822F77B0B00BE7F55 /* ThreeGears_17@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89A22F77B0B00BE7F55 /* ThreeGears_17@3x.png */; };
+		A71AA8F922F77B0C00BE7F55 /* ThreeGears_26@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89B22F77B0B00BE7F55 /* ThreeGears_26@1x.png */; };
+		A71AA8FA22F77B0C00BE7F55 /* ThreeGears_21@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89C22F77B0B00BE7F55 /* ThreeGears_21@3x.png */; };
+		A71AA8FB22F77B0C00BE7F55 /* ThreeGears_19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89D22F77B0B00BE7F55 /* ThreeGears_19@2x.png */; };
+		A71AA8FC22F77B0C00BE7F55 /* ThreeGears_10@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89E22F77B0B00BE7F55 /* ThreeGears_10@1x.png */; };
+		A71AA8FD22F77B0C00BE7F55 /* ThreeGears_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA89F22F77B0B00BE7F55 /* ThreeGears_9@2x.png */; };
+		A71AA8FE22F77B0C00BE7F55 /* ThreeGears_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A022F77B0B00BE7F55 /* ThreeGears_15@2x.png */; };
+		A71AA8FF22F77B0C00BE7F55 /* ThreeGears_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A122F77B0B00BE7F55 /* ThreeGears_5@2x.png */; };
+		A71AA90022F77B0C00BE7F55 /* ThreeGears_24@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A222F77B0B00BE7F55 /* ThreeGears_24@1x.png */; };
+		A71AA90122F77B0C00BE7F55 /* ThreeGears_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A322F77B0B00BE7F55 /* ThreeGears_5@3x.png */; };
+		A71AA90222F77B0C00BE7F55 /* ThreeGears_15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A422F77B0B00BE7F55 /* ThreeGears_15@3x.png */; };
+		A71AA90322F77B0C00BE7F55 /* ThreeGears_9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A522F77B0B00BE7F55 /* ThreeGears_9@3x.png */; };
+		A71AA90422F77B0C00BE7F55 /* ThreeGears_19@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A622F77B0B00BE7F55 /* ThreeGears_19@3x.png */; };
+		A71AA90522F77B0C00BE7F55 /* ThreeGears_28@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A722F77B0B00BE7F55 /* ThreeGears_28@1x.png */; };
+		A71AA90622F77B0C00BE7F55 /* ThreeGears_21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A822F77B0B00BE7F55 /* ThreeGears_21@2x.png */; };
+		A71AA90722F77B0C00BE7F55 /* ThreeGears_17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8A922F77B0B00BE7F55 /* ThreeGears_17@2x.png */; };
+		A71AA90822F77B0C00BE7F55 /* ThreeGears_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8AA22F77B0B00BE7F55 /* ThreeGears_7@2x.png */; };
+		A71AA90922F77B0C00BE7F55 /* ThreeGears_12@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8AB22F77B0B00BE7F55 /* ThreeGears_12@1x.png */; };
+		A71AA90A22F77B0C00BE7F55 /* ThreeGears_2@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8AC22F77B0B00BE7F55 /* ThreeGears_2@1x.png */; };
+		A71AA90B22F77B0C00BE7F55 /* ThreeGears_23@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8AD22F77B0B00BE7F55 /* ThreeGears_23@3x.png */; };
+		A71AA90C22F77B0C00BE7F55 /* ThreeGears_24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8AE22F77B0B00BE7F55 /* ThreeGears_24@2x.png */; };
+		A71AA90D22F77B0C00BE7F55 /* ThreeGears_10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8AF22F77B0B00BE7F55 /* ThreeGears_10@3x.png */; };
+		A71AA90E22F77B0C00BE7F55 /* ThreeGears_21@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B022F77B0B00BE7F55 /* ThreeGears_21@1x.png */; };
+		A71AA90F22F77B0C00BE7F55 /* ThreeGears_28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B122F77B0B00BE7F55 /* ThreeGears_28@2x.png */; };
+		A71AA91022F77B0C00BE7F55 /* ThreeGears_26@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B222F77B0B00BE7F55 /* ThreeGears_26@3x.png */; };
+		A71AA91122F77B0C00BE7F55 /* ThreeGears_17@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B322F77B0B00BE7F55 /* ThreeGears_17@1x.png */; };
+		A71AA91222F77B0C00BE7F55 /* ThreeGears_7@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B422F77B0B00BE7F55 /* ThreeGears_7@1x.png */; };
+		A71AA91322F77B0C00BE7F55 /* ThreeGears_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B522F77B0B00BE7F55 /* ThreeGears_12@2x.png */; };
+		A71AA91422F77B0C00BE7F55 /* ThreeGears_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B622F77B0B00BE7F55 /* ThreeGears_2@2x.png */; };
+		A71AA91522F77B0C00BE7F55 /* ThreeGears_23@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B722F77B0B00BE7F55 /* ThreeGears_23@1x.png */; };
+		A71AA91622F77B0C00BE7F55 /* ThreeGears_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B822F77B0B00BE7F55 /* ThreeGears_2@3x.png */; };
+		A71AA91722F77B0C00BE7F55 /* ThreeGears_12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8B922F77B0B00BE7F55 /* ThreeGears_12@3x.png */; };
+		A71AA91822F77B0C00BE7F55 /* ThreeGears_26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8BA22F77B0B00BE7F55 /* ThreeGears_26@2x.png */; };
+		A71AA91922F77B0C00BE7F55 /* ThreeGears_28@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8BB22F77B0B00BE7F55 /* ThreeGears_28@3x.png */; };
+		A71AA91A22F77B0C00BE7F55 /* ThreeGears_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8BC22F77B0B00BE7F55 /* ThreeGears_10@2x.png */; };
+		A71AA91B22F77B0C00BE7F55 /* ThreeGears_19@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8BD22F77B0B00BE7F55 /* ThreeGears_19@1x.png */; };
+		A71AA91C22F77B0C00BE7F55 /* ThreeGears_9@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8BE22F77B0B00BE7F55 /* ThreeGears_9@1x.png */; };
+		A71AA91D22F77B0C00BE7F55 /* ThreeGears_15@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8BF22F77B0B00BE7F55 /* ThreeGears_15@1x.png */; };
+		A71AA91E22F77B0C00BE7F55 /* ThreeGears_5@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C022F77B0B00BE7F55 /* ThreeGears_5@1x.png */; };
+		A71AA91F22F77B0C00BE7F55 /* ThreeGears_24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C122F77B0B00BE7F55 /* ThreeGears_24@3x.png */; };
+		A71AA92022F77B0C00BE7F55 /* ThreeGears_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C222F77B0B00BE7F55 /* ThreeGears_8@2x.png */; };
+		A71AA92122F77B0C00BE7F55 /* ThreeGears_1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C322F77B0B00BE7F55 /* ThreeGears_1@1x.png */; };
+		A71AA92222F77B0C00BE7F55 /* ThreeGears_11@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C422F77B0B00BE7F55 /* ThreeGears_11@1x.png */; };
+		A71AA92322F77B0C00BE7F55 /* ThreeGears_18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C522F77B0B00BE7F55 /* ThreeGears_18@2x.png */; };
+		A71AA92422F77B0C00BE7F55 /* ThreeGears_20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C622F77B0B00BE7F55 /* ThreeGears_20@3x.png */; };
+		A71AA92522F77B0C00BE7F55 /* ThreeGears_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C722F77B0B00BE7F55 /* ThreeGears_4@2x.png */; };
+		A71AA92622F77B0C00BE7F55 /* ThreeGears_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C822F77B0B00BE7F55 /* ThreeGears_14@2x.png */; };
+		A71AA92722F77B0C00BE7F55 /* ThreeGears_22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8C922F77B0B00BE7F55 /* ThreeGears_22@2x.png */; };
+		A71AA92822F77B0C00BE7F55 /* ThreeGears_27@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8CA22F77B0B00BE7F55 /* ThreeGears_27@1x.png */; };
+		A71AA92922F77B0C00BE7F55 /* ThreeGears_16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8CB22F77B0B00BE7F55 /* ThreeGears_16@3x.png */; };
+		A71AA92A22F77B0C00BE7F55 /* ThreeGears_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8CC22F77B0B00BE7F55 /* ThreeGears_6@3x.png */; };
+		A71AA92B22F77B0C00BE7F55 /* ThreeGears_30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8CD22F77B0B00BE7F55 /* ThreeGears_30@2x.png */; };
+		A71AA92C22F77B0C00BE7F55 /* ThreeGears_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8CE22F77B0B00BE7F55 /* ThreeGears_6@2x.png */; };
+		A71AA92D22F77B0C00BE7F55 /* ThreeGears_30@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8CF22F77B0B00BE7F55 /* ThreeGears_30@3x.png */; };
+		A71AA92E22F77B0C00BE7F55 /* ThreeGears_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D022F77B0B00BE7F55 /* ThreeGears_16@2x.png */; };
+		A71AA92F22F77B0C00BE7F55 /* ThreeGears_22@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D122F77B0B00BE7F55 /* ThreeGears_22@3x.png */; };
+		A71AA93022F77B0C00BE7F55 /* ThreeGears_3@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D222F77B0B00BE7F55 /* ThreeGears_3@1x.png */; };
+		A71AA93122F77B0C00BE7F55 /* ThreeGears_13@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D322F77B0B00BE7F55 /* ThreeGears_13@1x.png */; };
+		A71AA93222F77B0C00BE7F55 /* ThreeGears_14@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D422F77B0B00BE7F55 /* ThreeGears_14@3x.png */; };
+		A71AA93322F77B0C00BE7F55 /* ThreeGears_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D522F77B0B00BE7F55 /* ThreeGears_4@3x.png */; };
+		A71AA93422F77B0C00BE7F55 /* ThreeGears_25@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D622F77B0B00BE7F55 /* ThreeGears_25@1x.png */; };
+		A71AA93522F77B0C00BE7F55 /* ThreeGears_20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D722F77B0B00BE7F55 /* ThreeGears_20@2x.png */; };
+		A71AA93622F77B0C00BE7F55 /* ThreeGears_29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D822F77B0B00BE7F55 /* ThreeGears_29@1x.png */; };
+		A71AA93722F77B0C00BE7F55 /* ThreeGears_18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8D922F77B0B00BE7F55 /* ThreeGears_18@3x.png */; };
+		A71AA93822F77B0C00BE7F55 /* ThreeGears_8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8DA22F77B0B00BE7F55 /* ThreeGears_8@3x.png */; };
+		A71AA93922F77B0C00BE7F55 /* StartingEngine.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8DB22F77B0B00BE7F55 /* StartingEngine.xib */; };
+		A71AA93A22F77B0C00BE7F55 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA8DD22F77B0B00BE7F55 /* CircularProgressBar.swift */; };
+		A71AA93B22F77B0C00BE7F55 /* StartingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA8DE22F77B0B00BE7F55 /* StartingEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -514,6 +607,99 @@
 		A71AA87822F70E4600BE7F55 /* Flavorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flavorizer.swift; sourceTree = "<group>"; };
 		A71AA87B22F70F9900BE7F55 /* WordBreak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		A71AA87D22F722C700BE7F55 /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
+		A71AA88122F77B0B00BE7F55 /* ThreeGears_6@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_6@1x.png"; sourceTree = "<group>"; };
+		A71AA88222F77B0B00BE7F55 /* ThreeGears_16@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_16@1x.png"; sourceTree = "<group>"; };
+		A71AA88322F77B0B00BE7F55 /* ThreeGears_27@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_27@3x.png"; sourceTree = "<group>"; };
+		A71AA88422F77B0B00BE7F55 /* ThreeGears_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_3@2x.png"; sourceTree = "<group>"; };
+		A71AA88522F77B0B00BE7F55 /* ThreeGears_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_13@2x.png"; sourceTree = "<group>"; };
+		A71AA88622F77B0B00BE7F55 /* ThreeGears_25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_25@2x.png"; sourceTree = "<group>"; };
+		A71AA88722F77B0B00BE7F55 /* ThreeGears_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_29@2x.png"; sourceTree = "<group>"; };
+		A71AA88822F77B0B00BE7F55 /* ThreeGears_20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_20@1x.png"; sourceTree = "<group>"; };
+		A71AA88922F77B0B00BE7F55 /* ThreeGears_11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_11@3x.png"; sourceTree = "<group>"; };
+		A71AA88A22F77B0B00BE7F55 /* ThreeGears_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_1@3x.png"; sourceTree = "<group>"; };
+		A71AA88B22F77B0B00BE7F55 /* ThreeGears_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_1@2x.png"; sourceTree = "<group>"; };
+		A71AA88C22F77B0B00BE7F55 /* ThreeGears_8@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_8@1x.png"; sourceTree = "<group>"; };
+		A71AA88D22F77B0B00BE7F55 /* ThreeGears_18@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_18@1x.png"; sourceTree = "<group>"; };
+		A71AA88E22F77B0B00BE7F55 /* ThreeGears_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_11@2x.png"; sourceTree = "<group>"; };
+		A71AA88F22F77B0B00BE7F55 /* ThreeGears_29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_29@3x.png"; sourceTree = "<group>"; };
+		A71AA89022F77B0B00BE7F55 /* ThreeGears_25@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_25@3x.png"; sourceTree = "<group>"; };
+		A71AA89122F77B0B00BE7F55 /* ThreeGears_4@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_4@1x.png"; sourceTree = "<group>"; };
+		A71AA89222F77B0B00BE7F55 /* ThreeGears_14@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_14@1x.png"; sourceTree = "<group>"; };
+		A71AA89322F77B0B00BE7F55 /* ThreeGears_13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_13@3x.png"; sourceTree = "<group>"; };
+		A71AA89422F77B0B00BE7F55 /* ThreeGears_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_3@3x.png"; sourceTree = "<group>"; };
+		A71AA89522F77B0B00BE7F55 /* ThreeGears_22@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_22@1x.png"; sourceTree = "<group>"; };
+		A71AA89622F77B0B00BE7F55 /* ThreeGears_27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_27@2x.png"; sourceTree = "<group>"; };
+		A71AA89722F77B0B00BE7F55 /* ThreeGears_30@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_30@1x.png"; sourceTree = "<group>"; };
+		A71AA89822F77B0B00BE7F55 /* ThreeGears_23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_23@2x.png"; sourceTree = "<group>"; };
+		A71AA89922F77B0B00BE7F55 /* ThreeGears_7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_7@3x.png"; sourceTree = "<group>"; };
+		A71AA89A22F77B0B00BE7F55 /* ThreeGears_17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_17@3x.png"; sourceTree = "<group>"; };
+		A71AA89B22F77B0B00BE7F55 /* ThreeGears_26@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_26@1x.png"; sourceTree = "<group>"; };
+		A71AA89C22F77B0B00BE7F55 /* ThreeGears_21@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_21@3x.png"; sourceTree = "<group>"; };
+		A71AA89D22F77B0B00BE7F55 /* ThreeGears_19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_19@2x.png"; sourceTree = "<group>"; };
+		A71AA89E22F77B0B00BE7F55 /* ThreeGears_10@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_10@1x.png"; sourceTree = "<group>"; };
+		A71AA89F22F77B0B00BE7F55 /* ThreeGears_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_9@2x.png"; sourceTree = "<group>"; };
+		A71AA8A022F77B0B00BE7F55 /* ThreeGears_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_15@2x.png"; sourceTree = "<group>"; };
+		A71AA8A122F77B0B00BE7F55 /* ThreeGears_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_5@2x.png"; sourceTree = "<group>"; };
+		A71AA8A222F77B0B00BE7F55 /* ThreeGears_24@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_24@1x.png"; sourceTree = "<group>"; };
+		A71AA8A322F77B0B00BE7F55 /* ThreeGears_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_5@3x.png"; sourceTree = "<group>"; };
+		A71AA8A422F77B0B00BE7F55 /* ThreeGears_15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_15@3x.png"; sourceTree = "<group>"; };
+		A71AA8A522F77B0B00BE7F55 /* ThreeGears_9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_9@3x.png"; sourceTree = "<group>"; };
+		A71AA8A622F77B0B00BE7F55 /* ThreeGears_19@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_19@3x.png"; sourceTree = "<group>"; };
+		A71AA8A722F77B0B00BE7F55 /* ThreeGears_28@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_28@1x.png"; sourceTree = "<group>"; };
+		A71AA8A822F77B0B00BE7F55 /* ThreeGears_21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_21@2x.png"; sourceTree = "<group>"; };
+		A71AA8A922F77B0B00BE7F55 /* ThreeGears_17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_17@2x.png"; sourceTree = "<group>"; };
+		A71AA8AA22F77B0B00BE7F55 /* ThreeGears_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_7@2x.png"; sourceTree = "<group>"; };
+		A71AA8AB22F77B0B00BE7F55 /* ThreeGears_12@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_12@1x.png"; sourceTree = "<group>"; };
+		A71AA8AC22F77B0B00BE7F55 /* ThreeGears_2@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_2@1x.png"; sourceTree = "<group>"; };
+		A71AA8AD22F77B0B00BE7F55 /* ThreeGears_23@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_23@3x.png"; sourceTree = "<group>"; };
+		A71AA8AE22F77B0B00BE7F55 /* ThreeGears_24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_24@2x.png"; sourceTree = "<group>"; };
+		A71AA8AF22F77B0B00BE7F55 /* ThreeGears_10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_10@3x.png"; sourceTree = "<group>"; };
+		A71AA8B022F77B0B00BE7F55 /* ThreeGears_21@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_21@1x.png"; sourceTree = "<group>"; };
+		A71AA8B122F77B0B00BE7F55 /* ThreeGears_28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_28@2x.png"; sourceTree = "<group>"; };
+		A71AA8B222F77B0B00BE7F55 /* ThreeGears_26@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_26@3x.png"; sourceTree = "<group>"; };
+		A71AA8B322F77B0B00BE7F55 /* ThreeGears_17@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_17@1x.png"; sourceTree = "<group>"; };
+		A71AA8B422F77B0B00BE7F55 /* ThreeGears_7@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_7@1x.png"; sourceTree = "<group>"; };
+		A71AA8B522F77B0B00BE7F55 /* ThreeGears_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_12@2x.png"; sourceTree = "<group>"; };
+		A71AA8B622F77B0B00BE7F55 /* ThreeGears_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_2@2x.png"; sourceTree = "<group>"; };
+		A71AA8B722F77B0B00BE7F55 /* ThreeGears_23@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_23@1x.png"; sourceTree = "<group>"; };
+		A71AA8B822F77B0B00BE7F55 /* ThreeGears_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_2@3x.png"; sourceTree = "<group>"; };
+		A71AA8B922F77B0B00BE7F55 /* ThreeGears_12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_12@3x.png"; sourceTree = "<group>"; };
+		A71AA8BA22F77B0B00BE7F55 /* ThreeGears_26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_26@2x.png"; sourceTree = "<group>"; };
+		A71AA8BB22F77B0B00BE7F55 /* ThreeGears_28@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_28@3x.png"; sourceTree = "<group>"; };
+		A71AA8BC22F77B0B00BE7F55 /* ThreeGears_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_10@2x.png"; sourceTree = "<group>"; };
+		A71AA8BD22F77B0B00BE7F55 /* ThreeGears_19@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_19@1x.png"; sourceTree = "<group>"; };
+		A71AA8BE22F77B0B00BE7F55 /* ThreeGears_9@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_9@1x.png"; sourceTree = "<group>"; };
+		A71AA8BF22F77B0B00BE7F55 /* ThreeGears_15@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_15@1x.png"; sourceTree = "<group>"; };
+		A71AA8C022F77B0B00BE7F55 /* ThreeGears_5@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_5@1x.png"; sourceTree = "<group>"; };
+		A71AA8C122F77B0B00BE7F55 /* ThreeGears_24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_24@3x.png"; sourceTree = "<group>"; };
+		A71AA8C222F77B0B00BE7F55 /* ThreeGears_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_8@2x.png"; sourceTree = "<group>"; };
+		A71AA8C322F77B0B00BE7F55 /* ThreeGears_1@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_1@1x.png"; sourceTree = "<group>"; };
+		A71AA8C422F77B0B00BE7F55 /* ThreeGears_11@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_11@1x.png"; sourceTree = "<group>"; };
+		A71AA8C522F77B0B00BE7F55 /* ThreeGears_18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_18@2x.png"; sourceTree = "<group>"; };
+		A71AA8C622F77B0B00BE7F55 /* ThreeGears_20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_20@3x.png"; sourceTree = "<group>"; };
+		A71AA8C722F77B0B00BE7F55 /* ThreeGears_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_4@2x.png"; sourceTree = "<group>"; };
+		A71AA8C822F77B0B00BE7F55 /* ThreeGears_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_14@2x.png"; sourceTree = "<group>"; };
+		A71AA8C922F77B0B00BE7F55 /* ThreeGears_22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_22@2x.png"; sourceTree = "<group>"; };
+		A71AA8CA22F77B0B00BE7F55 /* ThreeGears_27@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_27@1x.png"; sourceTree = "<group>"; };
+		A71AA8CB22F77B0B00BE7F55 /* ThreeGears_16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_16@3x.png"; sourceTree = "<group>"; };
+		A71AA8CC22F77B0B00BE7F55 /* ThreeGears_6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_6@3x.png"; sourceTree = "<group>"; };
+		A71AA8CD22F77B0B00BE7F55 /* ThreeGears_30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_30@2x.png"; sourceTree = "<group>"; };
+		A71AA8CE22F77B0B00BE7F55 /* ThreeGears_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_6@2x.png"; sourceTree = "<group>"; };
+		A71AA8CF22F77B0B00BE7F55 /* ThreeGears_30@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_30@3x.png"; sourceTree = "<group>"; };
+		A71AA8D022F77B0B00BE7F55 /* ThreeGears_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_16@2x.png"; sourceTree = "<group>"; };
+		A71AA8D122F77B0B00BE7F55 /* ThreeGears_22@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_22@3x.png"; sourceTree = "<group>"; };
+		A71AA8D222F77B0B00BE7F55 /* ThreeGears_3@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_3@1x.png"; sourceTree = "<group>"; };
+		A71AA8D322F77B0B00BE7F55 /* ThreeGears_13@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_13@1x.png"; sourceTree = "<group>"; };
+		A71AA8D422F77B0B00BE7F55 /* ThreeGears_14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_14@3x.png"; sourceTree = "<group>"; };
+		A71AA8D522F77B0B00BE7F55 /* ThreeGears_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_4@3x.png"; sourceTree = "<group>"; };
+		A71AA8D622F77B0B00BE7F55 /* ThreeGears_25@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_25@1x.png"; sourceTree = "<group>"; };
+		A71AA8D722F77B0B00BE7F55 /* ThreeGears_20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_20@2x.png"; sourceTree = "<group>"; };
+		A71AA8D822F77B0B00BE7F55 /* ThreeGears_29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_29@1x.png"; sourceTree = "<group>"; };
+		A71AA8D922F77B0B00BE7F55 /* ThreeGears_18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_18@3x.png"; sourceTree = "<group>"; };
+		A71AA8DA22F77B0B00BE7F55 /* ThreeGears_8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThreeGears_8@3x.png"; sourceTree = "<group>"; };
+		A71AA8DB22F77B0B00BE7F55 /* StartingEngine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartingEngine.xib; sourceTree = "<group>"; };
+		A71AA8DD22F77B0B00BE7F55 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		A71AA8DE22F77B0B00BE7F55 /* StartingEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -569,6 +755,7 @@
 		A71AA68122F6C56600BE7F55 /* Model API */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA87F22F77B0B00BE7F55 /* Starting Engine */,
 				A71AA87A22F70F8800BE7F55 /* Word Break */,
 				A71AA86B22F703C800BE7F55 /* Made Up Word */,
 				A71AA86822F7016300BE7F55 /* Randomizers */,
@@ -938,6 +1125,122 @@
 			path = "Word Break";
 			sourceTree = "<group>";
 		};
+		A71AA87F22F77B0B00BE7F55 /* Starting Engine */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA88022F77B0B00BE7F55 /* Gears Images */,
+				A71AA8DB22F77B0B00BE7F55 /* StartingEngine.xib */,
+				A71AA8DC22F77B0B00BE7F55 /* Circular Progress Bar */,
+				A71AA8DE22F77B0B00BE7F55 /* StartingEngine.swift */,
+			);
+			path = "Starting Engine";
+			sourceTree = "<group>";
+		};
+		A71AA88022F77B0B00BE7F55 /* Gears Images */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA88122F77B0B00BE7F55 /* ThreeGears_6@1x.png */,
+				A71AA88222F77B0B00BE7F55 /* ThreeGears_16@1x.png */,
+				A71AA88322F77B0B00BE7F55 /* ThreeGears_27@3x.png */,
+				A71AA88422F77B0B00BE7F55 /* ThreeGears_3@2x.png */,
+				A71AA88522F77B0B00BE7F55 /* ThreeGears_13@2x.png */,
+				A71AA88622F77B0B00BE7F55 /* ThreeGears_25@2x.png */,
+				A71AA88722F77B0B00BE7F55 /* ThreeGears_29@2x.png */,
+				A71AA88822F77B0B00BE7F55 /* ThreeGears_20@1x.png */,
+				A71AA88922F77B0B00BE7F55 /* ThreeGears_11@3x.png */,
+				A71AA88A22F77B0B00BE7F55 /* ThreeGears_1@3x.png */,
+				A71AA88B22F77B0B00BE7F55 /* ThreeGears_1@2x.png */,
+				A71AA88C22F77B0B00BE7F55 /* ThreeGears_8@1x.png */,
+				A71AA88D22F77B0B00BE7F55 /* ThreeGears_18@1x.png */,
+				A71AA88E22F77B0B00BE7F55 /* ThreeGears_11@2x.png */,
+				A71AA88F22F77B0B00BE7F55 /* ThreeGears_29@3x.png */,
+				A71AA89022F77B0B00BE7F55 /* ThreeGears_25@3x.png */,
+				A71AA89122F77B0B00BE7F55 /* ThreeGears_4@1x.png */,
+				A71AA89222F77B0B00BE7F55 /* ThreeGears_14@1x.png */,
+				A71AA89322F77B0B00BE7F55 /* ThreeGears_13@3x.png */,
+				A71AA89422F77B0B00BE7F55 /* ThreeGears_3@3x.png */,
+				A71AA89522F77B0B00BE7F55 /* ThreeGears_22@1x.png */,
+				A71AA89622F77B0B00BE7F55 /* ThreeGears_27@2x.png */,
+				A71AA89722F77B0B00BE7F55 /* ThreeGears_30@1x.png */,
+				A71AA89822F77B0B00BE7F55 /* ThreeGears_23@2x.png */,
+				A71AA89922F77B0B00BE7F55 /* ThreeGears_7@3x.png */,
+				A71AA89A22F77B0B00BE7F55 /* ThreeGears_17@3x.png */,
+				A71AA89B22F77B0B00BE7F55 /* ThreeGears_26@1x.png */,
+				A71AA89C22F77B0B00BE7F55 /* ThreeGears_21@3x.png */,
+				A71AA89D22F77B0B00BE7F55 /* ThreeGears_19@2x.png */,
+				A71AA89E22F77B0B00BE7F55 /* ThreeGears_10@1x.png */,
+				A71AA89F22F77B0B00BE7F55 /* ThreeGears_9@2x.png */,
+				A71AA8A022F77B0B00BE7F55 /* ThreeGears_15@2x.png */,
+				A71AA8A122F77B0B00BE7F55 /* ThreeGears_5@2x.png */,
+				A71AA8A222F77B0B00BE7F55 /* ThreeGears_24@1x.png */,
+				A71AA8A322F77B0B00BE7F55 /* ThreeGears_5@3x.png */,
+				A71AA8A422F77B0B00BE7F55 /* ThreeGears_15@3x.png */,
+				A71AA8A522F77B0B00BE7F55 /* ThreeGears_9@3x.png */,
+				A71AA8A622F77B0B00BE7F55 /* ThreeGears_19@3x.png */,
+				A71AA8A722F77B0B00BE7F55 /* ThreeGears_28@1x.png */,
+				A71AA8A822F77B0B00BE7F55 /* ThreeGears_21@2x.png */,
+				A71AA8A922F77B0B00BE7F55 /* ThreeGears_17@2x.png */,
+				A71AA8AA22F77B0B00BE7F55 /* ThreeGears_7@2x.png */,
+				A71AA8AB22F77B0B00BE7F55 /* ThreeGears_12@1x.png */,
+				A71AA8AC22F77B0B00BE7F55 /* ThreeGears_2@1x.png */,
+				A71AA8AD22F77B0B00BE7F55 /* ThreeGears_23@3x.png */,
+				A71AA8AE22F77B0B00BE7F55 /* ThreeGears_24@2x.png */,
+				A71AA8AF22F77B0B00BE7F55 /* ThreeGears_10@3x.png */,
+				A71AA8B022F77B0B00BE7F55 /* ThreeGears_21@1x.png */,
+				A71AA8B122F77B0B00BE7F55 /* ThreeGears_28@2x.png */,
+				A71AA8B222F77B0B00BE7F55 /* ThreeGears_26@3x.png */,
+				A71AA8B322F77B0B00BE7F55 /* ThreeGears_17@1x.png */,
+				A71AA8B422F77B0B00BE7F55 /* ThreeGears_7@1x.png */,
+				A71AA8B522F77B0B00BE7F55 /* ThreeGears_12@2x.png */,
+				A71AA8B622F77B0B00BE7F55 /* ThreeGears_2@2x.png */,
+				A71AA8B722F77B0B00BE7F55 /* ThreeGears_23@1x.png */,
+				A71AA8B822F77B0B00BE7F55 /* ThreeGears_2@3x.png */,
+				A71AA8B922F77B0B00BE7F55 /* ThreeGears_12@3x.png */,
+				A71AA8BA22F77B0B00BE7F55 /* ThreeGears_26@2x.png */,
+				A71AA8BB22F77B0B00BE7F55 /* ThreeGears_28@3x.png */,
+				A71AA8BC22F77B0B00BE7F55 /* ThreeGears_10@2x.png */,
+				A71AA8BD22F77B0B00BE7F55 /* ThreeGears_19@1x.png */,
+				A71AA8BE22F77B0B00BE7F55 /* ThreeGears_9@1x.png */,
+				A71AA8BF22F77B0B00BE7F55 /* ThreeGears_15@1x.png */,
+				A71AA8C022F77B0B00BE7F55 /* ThreeGears_5@1x.png */,
+				A71AA8C122F77B0B00BE7F55 /* ThreeGears_24@3x.png */,
+				A71AA8C222F77B0B00BE7F55 /* ThreeGears_8@2x.png */,
+				A71AA8C322F77B0B00BE7F55 /* ThreeGears_1@1x.png */,
+				A71AA8C422F77B0B00BE7F55 /* ThreeGears_11@1x.png */,
+				A71AA8C522F77B0B00BE7F55 /* ThreeGears_18@2x.png */,
+				A71AA8C622F77B0B00BE7F55 /* ThreeGears_20@3x.png */,
+				A71AA8C722F77B0B00BE7F55 /* ThreeGears_4@2x.png */,
+				A71AA8C822F77B0B00BE7F55 /* ThreeGears_14@2x.png */,
+				A71AA8C922F77B0B00BE7F55 /* ThreeGears_22@2x.png */,
+				A71AA8CA22F77B0B00BE7F55 /* ThreeGears_27@1x.png */,
+				A71AA8CB22F77B0B00BE7F55 /* ThreeGears_16@3x.png */,
+				A71AA8CC22F77B0B00BE7F55 /* ThreeGears_6@3x.png */,
+				A71AA8CD22F77B0B00BE7F55 /* ThreeGears_30@2x.png */,
+				A71AA8CE22F77B0B00BE7F55 /* ThreeGears_6@2x.png */,
+				A71AA8CF22F77B0B00BE7F55 /* ThreeGears_30@3x.png */,
+				A71AA8D022F77B0B00BE7F55 /* ThreeGears_16@2x.png */,
+				A71AA8D122F77B0B00BE7F55 /* ThreeGears_22@3x.png */,
+				A71AA8D222F77B0B00BE7F55 /* ThreeGears_3@1x.png */,
+				A71AA8D322F77B0B00BE7F55 /* ThreeGears_13@1x.png */,
+				A71AA8D422F77B0B00BE7F55 /* ThreeGears_14@3x.png */,
+				A71AA8D522F77B0B00BE7F55 /* ThreeGears_4@3x.png */,
+				A71AA8D622F77B0B00BE7F55 /* ThreeGears_25@1x.png */,
+				A71AA8D722F77B0B00BE7F55 /* ThreeGears_20@2x.png */,
+				A71AA8D822F77B0B00BE7F55 /* ThreeGears_29@1x.png */,
+				A71AA8D922F77B0B00BE7F55 /* ThreeGears_18@3x.png */,
+				A71AA8DA22F77B0B00BE7F55 /* ThreeGears_8@3x.png */,
+			);
+			path = "Gears Images";
+			sourceTree = "<group>";
+		};
+		A71AA8DC22F77B0B00BE7F55 /* Circular Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA8DD22F77B0B00BE7F55 /* CircularProgressBar.swift */,
+			);
+			path = "Circular Progress Bar";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -999,11 +1302,16 @@
 				A71AA77622F6C62700BE7F55 /* Cluster_149.txt in Resources */,
 				A71AA7EC22F6C62700BE7F55 /* Cluster_93.txt in Resources */,
 				A71AA7A422F6C62700BE7F55 /* Cluster_102.txt in Resources */,
+				A71AA91822F77B0C00BE7F55 /* ThreeGears_26@2x.png in Resources */,
 				A71AA69122F6C5B800BE7F55 /* RankedModelCorpus.txt in Resources */,
 				A71AA83522F6C63B00BE7F55 /* 8Letter.txt in Resources */,
 				A71AA7A022F6C62700BE7F55 /* Cluster_103.txt in Resources */,
+				A71AA8DF22F77B0B00BE7F55 /* ThreeGears_6@1x.png in Resources */,
 				A71AA7B222F6C62700BE7F55 /* Cluster_101.txt in Resources */,
+				A71AA90F22F77B0C00BE7F55 /* ThreeGears_28@2x.png in Resources */,
 				A71AA78322F6C62700BE7F55 /* Cluster_49.txt in Resources */,
+				A71AA91522F77B0C00BE7F55 /* ThreeGears_23@1x.png in Resources */,
+				A71AA92C22F77B0C00BE7F55 /* ThreeGears_6@2x.png in Resources */,
 				A71AA7F922F6C62700BE7F55 /* Cluster_191.txt in Resources */,
 				A71AA80922F6C62700BE7F55 /* Cluster_21.txt in Resources */,
 				A71AA7B322F6C62700BE7F55 /* Cluster_59.txt in Resources */,
@@ -1012,11 +1320,15 @@
 				A71AA7E222F6C62700BE7F55 /* Cluster_79.txt in Resources */,
 				A71AA7B422F6C62700BE7F55 /* Cluster_65.txt in Resources */,
 				A71AA76622F6C62700BE7F55 /* Cluster_17.txt in Resources */,
+				A71AA8F122F77B0B00BE7F55 /* ThreeGears_13@3x.png in Resources */,
+				A71AA8FC22F77B0C00BE7F55 /* ThreeGears_10@1x.png in Resources */,
 				A71AA84022F6C63B00BE7F55 /* 13Letter.txt in Resources */,
+				A71AA93722F77B0C00BE7F55 /* ThreeGears_18@3x.png in Resources */,
 				A71AA7B922F6C62700BE7F55 /* Cluster_118.txt in Resources */,
 				A71AA84122F6C63B00BE7F55 /* 1Letter.txt in Resources */,
 				A71AA7AB22F6C62700BE7F55 /* Cluster_100.txt in Resources */,
 				A71AA7B622F6C62700BE7F55 /* Cluster_68.txt in Resources */,
+				A71AA93222F77B0C00BE7F55 /* ThreeGears_14@3x.png in Resources */,
 				A71AA81822F6C62700BE7F55 /* Cluster_32.txt in Resources */,
 				A71AA7BE22F6C62700BE7F55 /* Cluster_131.txt in Resources */,
 				A71AA78E22F6C62700BE7F55 /* Cluster_60.txt in Resources */,
@@ -1027,13 +1339,20 @@
 				A71AA7E622F6C62700BE7F55 /* Cluster_135.txt in Resources */,
 				A71AA79A22F6C62700BE7F55 /* Cluster_88.txt in Resources */,
 				A71AA7A222F6C62700BE7F55 /* Cluster_1.txt in Resources */,
+				A71AA8F722F77B0B00BE7F55 /* ThreeGears_7@3x.png in Resources */,
+				A71AA90522F77B0C00BE7F55 /* ThreeGears_28@1x.png in Resources */,
 				A71AA78F22F6C62700BE7F55 /* Cluster_74.txt in Resources */,
 				A71AA7CE22F6C62700BE7F55 /* Cluster_81.txt in Resources */,
+				A71AA8FB22F77B0C00BE7F55 /* ThreeGears_19@2x.png in Resources */,
 				A71AA7B122F6C62700BE7F55 /* Cluster_115.txt in Resources */,
 				A71AA81222F6C62700BE7F55 /* Cluster_140.txt in Resources */,
 				A71AA7BB22F6C62700BE7F55 /* Cluster_124.txt in Resources */,
+				A71AA90122F77B0C00BE7F55 /* ThreeGears_5@3x.png in Resources */,
 				A71AA7AD22F6C62700BE7F55 /* Cluster_128.txt in Resources */,
+				A71AA8F222F77B0B00BE7F55 /* ThreeGears_3@3x.png in Resources */,
+				A71AA8E122F77B0B00BE7F55 /* ThreeGears_27@3x.png in Resources */,
 				A71AA79222F6C62700BE7F55 /* Cluster_76.txt in Resources */,
+				A71AA91222F77B0C00BE7F55 /* ThreeGears_7@1x.png in Resources */,
 				A71AA80222F6C62700BE7F55 /* Cluster_144.txt in Resources */,
 				A71AA76522F6C62700BE7F55 /* Cluster_167.txt in Resources */,
 				A71AA79022F6C62700BE7F55 /* Cluster_48.txt in Resources */,
@@ -1046,15 +1365,22 @@
 				A71AA69322F6C5B800BE7F55 /* MarkovTriGramChains.txt in Resources */,
 				A71AA80C22F6C62700BE7F55 /* Cluster_31.txt in Resources */,
 				A71AA79922F6C62700BE7F55 /* Cluster_113.txt in Resources */,
+				A71AA90E22F77B0C00BE7F55 /* ThreeGears_21@1x.png in Resources */,
 				A71AA80622F6C62700BE7F55 /* Cluster_35.txt in Resources */,
 				A71AA80822F6C62700BE7F55 /* Cluster_192.txt in Resources */,
 				A71AA77522F6C62700BE7F55 /* Cluster_148.txt in Resources */,
+				A71AA91B22F77B0C00BE7F55 /* ThreeGears_19@1x.png in Resources */,
+				A71AA91722F77B0C00BE7F55 /* ThreeGears_12@3x.png in Resources */,
+				A71AA93022F77B0C00BE7F55 /* ThreeGears_3@1x.png in Resources */,
 				A71AA83C22F6C63B00BE7F55 /* 10Letter.txt in Resources */,
 				A71AA7E022F6C62700BE7F55 /* Cluster_51.txt in Resources */,
+				A71AA91E22F77B0C00BE7F55 /* ThreeGears_5@1x.png in Resources */,
 				A71AA69522F6C5B800BE7F55 /* 20K_Sample_Statements.txt in Resources */,
+				A71AA8E922F77B0B00BE7F55 /* ThreeGears_1@2x.png in Resources */,
 				A71AA81E22F6C62700BE7F55 /* Cluster_143.txt in Resources */,
 				A71AA67722F6C4BE00BE7F55 /* LaunchScreen.storyboard in Resources */,
 				A71AA81F22F6C62700BE7F55 /* Cluster_194.txt in Resources */,
+				A71AA8E822F77B0B00BE7F55 /* ThreeGears_1@3x.png in Resources */,
 				A71AA77022F6C62700BE7F55 /* Cluster_28.txt in Resources */,
 				A71AA83A22F6C63B00BE7F55 /* 16Letter.txt in Resources */,
 				A71AA77822F6C62700BE7F55 /* Cluster_175.txt in Resources */,
@@ -1062,27 +1388,39 @@
 				A71AA7AE22F6C62700BE7F55 /* Cluster_3.txt in Resources */,
 				A71AA77A22F6C62700BE7F55 /* Cluster_11.txt in Resources */,
 				A71AA7F722F6C62700BE7F55 /* Cluster_146.txt in Resources */,
+				A71AA92822F77B0C00BE7F55 /* ThreeGears_27@1x.png in Resources */,
+				A71AA91422F77B0C00BE7F55 /* ThreeGears_2@2x.png in Resources */,
 				A71AA78822F6C62700BE7F55 /* Cluster_111.txt in Resources */,
 				A71AA78422F6C62700BE7F55 /* Cluster_75.txt in Resources */,
+				A71AA91D22F77B0C00BE7F55 /* ThreeGears_15@1x.png in Resources */,
 				A71AA7E522F6C62700BE7F55 /* Cluster_86.txt in Resources */,
+				A71AA91022F77B0C00BE7F55 /* ThreeGears_26@3x.png in Resources */,
+				A71AA91122F77B0C00BE7F55 /* ThreeGears_17@1x.png in Resources */,
 				A71AA81B22F6C62700BE7F55 /* Cluster_142.txt in Resources */,
 				A71AA69422F6C5B800BE7F55 /* WantedRightFourGrams.txt in Resources */,
 				A71AA7CD22F6C62700BE7F55 /* Cluster_95.txt in Resources */,
 				A71AA81322F6C62700BE7F55 /* Cluster_154.txt in Resources */,
+				A71AA8FD22F77B0C00BE7F55 /* ThreeGears_9@2x.png in Resources */,
 				A71AA7FA22F6C62700BE7F55 /* Cluster_185.txt in Resources */,
 				A71AA7FC22F6C62700BE7F55 /* Cluster_193.txt in Resources */,
 				A71AA68F22F6C5B800BE7F55 /* WantedLeftBiGrams.txt in Resources */,
 				A71AA7D522F6C62700BE7F55 /* Cluster_85.txt in Resources */,
 				A71AA77222F6C62700BE7F55 /* Cluster_38.txt in Resources */,
 				A71AA69822F6C5B800BE7F55 /* organizedSynonymsRanks.txt in Resources */,
+				A71AA92222F77B0C00BE7F55 /* ThreeGears_11@1x.png in Resources */,
+				A71AA8EE22F77B0B00BE7F55 /* ThreeGears_25@3x.png in Resources */,
+				A71AA8E522F77B0B00BE7F55 /* ThreeGears_29@2x.png in Resources */,
 				A71AA81C22F6C62700BE7F55 /* Cluster_156.txt in Resources */,
 				A71AA7BA22F6C62700BE7F55 /* Cluster_97.txt in Resources */,
 				A71AA76222F6C62700BE7F55 /* Cluster_166.txt in Resources */,
 				A71AA77722F6C62700BE7F55 /* Cluster_161.txt in Resources */,
+				A71AA8E222F77B0B00BE7F55 /* ThreeGears_3@2x.png in Resources */,
+				A71AA93422F77B0C00BE7F55 /* ThreeGears_25@1x.png in Resources */,
 				A71AA7DF22F6C62700BE7F55 /* Cluster_47.txt in Resources */,
 				A71AA76922F6C62700BE7F55 /* Cluster_159.txt in Resources */,
 				A71AA83F22F6C63B00BE7F55 /* 7Letter.txt in Resources */,
 				A71AA76322F6C62700BE7F55 /* Cluster_172.txt in Resources */,
+				A71AA90722F77B0C00BE7F55 /* ThreeGears_17@2x.png in Resources */,
 				A71AA7FE22F6C62700BE7F55 /* Cluster_34.txt in Resources */,
 				A71AA7E322F6C62700BE7F55 /* Cluster_121.txt in Resources */,
 				A71AA79622F6C62700BE7F55 /* Cluster_5.txt in Resources */,
@@ -1090,36 +1428,53 @@
 				A71AA79C22F6C62700BE7F55 /* Cluster_63.txt in Resources */,
 				A71AA7F422F6C62700BE7F55 /* Cluster_147.txt in Resources */,
 				A71AA76A22F6C62700BE7F55 /* Cluster_171.txt in Resources */,
+				A71AA92322F77B0C00BE7F55 /* ThreeGears_18@2x.png in Resources */,
 				A71AA69222F6C5B800BE7F55 /* MarkovBiGramStart.txt in Resources */,
 				A71AA76F22F6C62700BE7F55 /* Cluster_14.txt in Resources */,
 				A71AA78B22F6C62700BE7F55 /* Cluster_110.txt in Resources */,
+				A71AA91A22F77B0C00BE7F55 /* ThreeGears_10@2x.png in Resources */,
 				A71AA7D122F6C62700BE7F55 /* Cluster_42.txt in Resources */,
+				A71AA91922F77B0C00BE7F55 /* ThreeGears_28@3x.png in Resources */,
 				A71AA7F822F6C62700BE7F55 /* Cluster_22.txt in Resources */,
 				A71AA78C22F6C62700BE7F55 /* Cluster_104.txt in Resources */,
 				A71AA79322F6C62700BE7F55 /* Cluster_89.txt in Resources */,
+				A71AA92422F77B0C00BE7F55 /* ThreeGears_20@3x.png in Resources */,
 				A71AA7D222F6C62700BE7F55 /* Cluster_46.txt in Resources */,
+				A71AA90922F77B0C00BE7F55 /* ThreeGears_12@1x.png in Resources */,
+				A71AA92122F77B0C00BE7F55 /* ThreeGears_1@1x.png in Resources */,
 				A71AA80122F6C62700BE7F55 /* Cluster_150.txt in Resources */,
+				A71AA92022F77B0C00BE7F55 /* ThreeGears_8@2x.png in Resources */,
 				A71AA77D22F6C62700BE7F55 /* Cluster_163.txt in Resources */,
 				A71AA83922F6C63B00BE7F55 /* 9Letter.txt in Resources */,
+				A71AA8E722F77B0B00BE7F55 /* ThreeGears_11@3x.png in Resources */,
 				A71AA7EF22F6C62700BE7F55 /* Cluster_50.txt in Resources */,
 				A71AA78522F6C62700BE7F55 /* Cluster_61.txt in Resources */,
+				A71AA90422F77B0C00BE7F55 /* ThreeGears_19@3x.png in Resources */,
 				A71AA7E422F6C62700BE7F55 /* Cluster_92.txt in Resources */,
 				A71AA7CF22F6C62700BE7F55 /* Cluster_132.txt in Resources */,
 				A71AA78222F6C62700BE7F55 /* Cluster_12.txt in Resources */,
+				A71AA93622F77B0C00BE7F55 /* ThreeGears_29@1x.png in Resources */,
 				A71AA77B22F6C62700BE7F55 /* Cluster_13.txt in Resources */,
+				A71AA92922F77B0C00BE7F55 /* ThreeGears_16@3x.png in Resources */,
 				A71AA80522F6C62700BE7F55 /* Cluster_179.txt in Resources */,
 				A71AA77E22F6C62700BE7F55 /* Cluster_177.txt in Resources */,
 				A71AA78922F6C62700BE7F55 /* Cluster_6.txt in Resources */,
 				A71AA79522F6C62700BE7F55 /* Cluster_106.txt in Resources */,
+				A71AA93322F77B0C00BE7F55 /* ThreeGears_4@3x.png in Resources */,
+				A71AA8F322F77B0B00BE7F55 /* ThreeGears_22@1x.png in Resources */,
+				A71AA90222F77B0C00BE7F55 /* ThreeGears_15@3x.png in Resources */,
+				A71AA92B22F77B0C00BE7F55 /* ThreeGears_30@2x.png in Resources */,
 				A71AA83D22F6C63B00BE7F55 /* 2Letter.txt in Resources */,
 				A71AA69622F6C5B800BE7F55 /* WantedLeftTriGrams.txt in Resources */,
 				A71AA7C922F6C62700BE7F55 /* Cluster_133.txt in Resources */,
 				A71AA7EE22F6C62700BE7F55 /* Cluster_44.txt in Resources */,
 				A71AA80B22F6C62700BE7F55 /* Cluster_182.txt in Resources */,
+				A71AA93522F77B0C00BE7F55 /* ThreeGears_20@2x.png in Resources */,
 				A71AA7D022F6C62700BE7F55 /* Cluster_56.txt in Resources */,
 				A71AA78722F6C62700BE7F55 /* Cluster_105.txt in Resources */,
 				A71AA7F322F6C62700BE7F55 /* Cluster_190.txt in Resources */,
 				A71AA7FF22F6C62700BE7F55 /* Cluster_187.txt in Resources */,
+				A71AA8E022F77B0B00BE7F55 /* ThreeGears_16@1x.png in Resources */,
 				A71AA79122F6C62700BE7F55 /* Cluster_62.txt in Resources */,
 				A71AA7C722F6C62700BE7F55 /* Cluster_57.txt in Resources */,
 				A71AA7FB22F6C62700BE7F55 /* Cluster_36.txt in Resources */,
@@ -1127,9 +1482,14 @@
 				A71AA7B022F6C62700BE7F55 /* Cluster_129.txt in Resources */,
 				A71AA81122F6C62700BE7F55 /* Cluster_168.txt in Resources */,
 				A71AA7EA22F6C62700BE7F55 /* Cluster_134.txt in Resources */,
+				A71AA93822F77B0C00BE7F55 /* ThreeGears_8@3x.png in Resources */,
+				A71AA92A22F77B0C00BE7F55 /* ThreeGears_6@3x.png in Resources */,
+				A71AA8EA22F77B0B00BE7F55 /* ThreeGears_8@1x.png in Resources */,
 				A71AA84322F6C63B00BE7F55 /* 6Letter.txt in Resources */,
 				A71AA7A622F6C62700BE7F55 /* Cluster_72.txt in Resources */,
+				A71AA8FE22F77B0C00BE7F55 /* ThreeGears_15@2x.png in Resources */,
 				A71AA7BC22F6C62700BE7F55 /* Cluster_130.txt in Resources */,
+				A71AA91622F77B0C00BE7F55 /* ThreeGears_2@3x.png in Resources */,
 				A71AA7F122F6C62700BE7F55 /* Cluster_37.txt in Resources */,
 				A71AA7C222F6C62700BE7F55 /* Cluster_119.txt in Resources */,
 				A71AA76122F6C62700BE7F55 /* Cluster_16.txt in Resources */,
@@ -1140,25 +1500,34 @@
 				A71AA7DB22F6C62700BE7F55 /* Cluster_123.txt in Resources */,
 				A71AA7AA22F6C62700BE7F55 /* Cluster_58.txt in Resources */,
 				A71AA7D622F6C62700BE7F55 /* Cluster_91.txt in Resources */,
+				A71AA8F422F77B0B00BE7F55 /* ThreeGears_27@2x.png in Resources */,
 				A71AA84222F6C63B00BE7F55 /* 14Letter.txt in Resources */,
+				A71AA92F22F77B0C00BE7F55 /* ThreeGears_22@3x.png in Resources */,
 				A71AA7FD22F6C62700BE7F55 /* Cluster_20.txt in Resources */,
 				A71AA69A22F6C5B800BE7F55 /* WantedLeftFourGrams.txt in Resources */,
 				A71AA76D22F6C62700BE7F55 /* Cluster_170.txt in Resources */,
 				A71AA83622F6C63B00BE7F55 /* 5Letter.txt in Resources */,
+				A71AA90D22F77B0C00BE7F55 /* ThreeGears_10@3x.png in Resources */,
 				A71AA76422F6C62700BE7F55 /* Cluster_173.txt in Resources */,
 				A71AA80D22F6C62700BE7F55 /* Cluster_19.txt in Resources */,
 				A71AA82222F6C62700BE7F55 /* Cluster_180.txt in Resources */,
 				A71AA77422F6C62700BE7F55 /* Cluster_160.txt in Resources */,
+				A71AA90822F77B0C00BE7F55 /* ThreeGears_7@2x.png in Resources */,
+				A71AA8EB22F77B0B00BE7F55 /* ThreeGears_18@1x.png in Resources */,
 				A71AA7A322F6C62700BE7F55 /* Cluster_99.txt in Resources */,
+				A71AA8FF22F77B0C00BE7F55 /* ThreeGears_5@2x.png in Resources */,
 				A71AA7D822F6C62700BE7F55 /* Cluster_9.txt in Resources */,
 				A71AA7F522F6C62700BE7F55 /* Cluster_153.txt in Resources */,
 				A71AA68022F6C51700BE7F55 /* Default-568h@2x.png in Resources */,
+				A71AA90022F77B0C00BE7F55 /* ThreeGears_24@1x.png in Resources */,
 				A71AA79722F6C62700BE7F55 /* Cluster_4.txt in Resources */,
 				A71AA78D22F6C62700BE7F55 /* Cluster_138.txt in Resources */,
+				A71AA92E22F77B0C00BE7F55 /* ThreeGears_16@2x.png in Resources */,
 				A71AA79422F6C62700BE7F55 /* Cluster_112.txt in Resources */,
 				A71AA76E22F6C62700BE7F55 /* Cluster_158.txt in Resources */,
 				A71AA7AF22F6C62700BE7F55 /* Cluster_2.txt in Resources */,
 				A71AA7C322F6C62700BE7F55 /* Cluster_41.txt in Resources */,
+				A71AA90B22F77B0C00BE7F55 /* ThreeGears_23@3x.png in Resources */,
 				A71AA7F622F6C62700BE7F55 /* Cluster_152.txt in Resources */,
 				A71AA7A922F6C62700BE7F55 /* Cluster_64.txt in Resources */,
 				A71AA83E22F6C63B00BE7F55 /* 15Letter.txt in Resources */,
@@ -1171,21 +1540,31 @@
 				A71AA80F22F6C62700BE7F55 /* Cluster_141.txt in Resources */,
 				A71AA79E22F6C62700BE7F55 /* Cluster_73.txt in Resources */,
 				A71AA7C022F6C62700BE7F55 /* Cluster_96.txt in Resources */,
+				A71AA91F22F77B0C00BE7F55 /* ThreeGears_24@3x.png in Resources */,
 				A71AA82122F6C62700BE7F55 /* Cluster_33.txt in Resources */,
 				A71AA7D322F6C62700BE7F55 /* Cluster_52.txt in Resources */,
 				A71AA7C422F6C62700BE7F55 /* Cluster_55.txt in Resources */,
 				A71AA7F222F6C62700BE7F55 /* Cluster_23.txt in Resources */,
+				A71AA8E622F77B0B00BE7F55 /* ThreeGears_20@1x.png in Resources */,
 				A71AA67422F6C4BE00BE7F55 /* Assets.xcassets in Resources */,
+				A71AA8F822F77B0B00BE7F55 /* ThreeGears_17@3x.png in Resources */,
 				A71AA7AC22F6C62700BE7F55 /* Cluster_114.txt in Resources */,
+				A71AA91C22F77B0C00BE7F55 /* ThreeGears_9@1x.png in Resources */,
 				A71AA7E922F6C62700BE7F55 /* Cluster_87.txt in Resources */,
+				A71AA92622F77B0C00BE7F55 /* ThreeGears_14@2x.png in Resources */,
 				A71AA69722F6C5B800BE7F55 /* BiGramFrequencyTable.txt in Resources */,
 				A71AA78122F6C62700BE7F55 /* Cluster_189.txt in Resources */,
+				A71AA8F522F77B0B00BE7F55 /* ThreeGears_30@1x.png in Resources */,
+				A71AA8EF22F77B0B00BE7F55 /* ThreeGears_4@1x.png in Resources */,
 				A71AA76722F6C62700BE7F55 /* Cluster_29.txt in Resources */,
 				A71AA7D422F6C62700BE7F55 /* Cluster_136.txt in Resources */,
 				A71AA7ED22F6C62700BE7F55 /* Cluster_78.txt in Resources */,
+				A71AA93122F77B0C00BE7F55 /* ThreeGears_13@1x.png in Resources */,
+				A71AA8ED22F77B0B00BE7F55 /* ThreeGears_29@3x.png in Resources */,
 				A71AA7A822F6C62700BE7F55 /* Cluster_70.txt in Resources */,
 				A71AA80322F6C62700BE7F55 /* Cluster_145.txt in Resources */,
 				A71AA81922F6C62700BE7F55 /* Cluster_181.txt in Resources */,
+				A71AA8E422F77B0B00BE7F55 /* ThreeGears_25@2x.png in Resources */,
 				A71AA7E822F6C62700BE7F55 /* Cluster_108.txt in Resources */,
 				A71AA7C122F6C62700BE7F55 /* Cluster_125.txt in Resources */,
 				A71AA80A22F6C62700BE7F55 /* Cluster_25.txt in Resources */,
@@ -1193,36 +1572,51 @@
 				A71AA83B22F6C63B00BE7F55 /* 4Letter.txt in Resources */,
 				A71AA84422F6C63B00BE7F55 /* 12Letter.txt in Resources */,
 				A71AA84522F6C63B00BE7F55 /* 0Letter.txt in Resources */,
+				A71AA90A22F77B0C00BE7F55 /* ThreeGears_2@1x.png in Resources */,
 				A71AA69022F6C5B800BE7F55 /* MarkovTriGramStart.txt in Resources */,
+				A71AA92D22F77B0C00BE7F55 /* ThreeGears_30@3x.png in Resources */,
 				A71AA77122F6C62700BE7F55 /* Cluster_10.txt in Resources */,
 				A71AA81D22F6C62700BE7F55 /* Cluster_157.txt in Resources */,
 				A71AA81522F6C62700BE7F55 /* Cluster_183.txt in Resources */,
 				A71AA7BD22F6C62700BE7F55 /* Cluster_83.txt in Resources */,
 				A71AA69922F6C5B800BE7F55 /* MarkovBiGramChains.txt in Resources */,
+				A71AA8F922F77B0C00BE7F55 /* ThreeGears_26@1x.png in Resources */,
 				A71AA7C622F6C62700BE7F55 /* Cluster_43.txt in Resources */,
+				A71AA90322F77B0C00BE7F55 /* ThreeGears_9@3x.png in Resources */,
 				A71AA7DD22F6C62700BE7F55 /* Cluster_84.txt in Resources */,
 				A71AA76B22F6C62700BE7F55 /* Cluster_165.txt in Resources */,
 				A71AA7D922F6C62700BE7F55 /* Cluster_8.txt in Resources */,
+				A71AA8F622F77B0B00BE7F55 /* ThreeGears_23@2x.png in Resources */,
+				A71AA91322F77B0C00BE7F55 /* ThreeGears_12@2x.png in Resources */,
+				A71AA8F022F77B0B00BE7F55 /* ThreeGears_14@1x.png in Resources */,
 				A71AA7B722F6C62700BE7F55 /* Cluster_54.txt in Resources */,
 				A71AA7DE22F6C62700BE7F55 /* Cluster_53.txt in Resources */,
 				A71AA7D722F6C62700BE7F55 /* Cluster_122.txt in Resources */,
+				A71AA92522F77B0C00BE7F55 /* ThreeGears_4@2x.png in Resources */,
+				A71AA8E322F77B0B00BE7F55 /* ThreeGears_13@2x.png in Resources */,
 				A71AA79F22F6C62700BE7F55 /* Cluster_117.txt in Resources */,
 				A71AA81622F6C62700BE7F55 /* Cluster_30.txt in Resources */,
 				A71AA67222F6C4BD00BE7F55 /* Main.storyboard in Resources */,
 				A71AA80422F6C62700BE7F55 /* Cluster_151.txt in Resources */,
+				A71AA93922F77B0C00BE7F55 /* StartingEngine.xib in Resources */,
 				A71AA79822F6C62700BE7F55 /* Cluster_107.txt in Resources */,
 				A71AA7CB22F6C62700BE7F55 /* Cluster_94.txt in Resources */,
+				A71AA8EC22F77B0B00BE7F55 /* ThreeGears_11@2x.png in Resources */,
 				A71AA79B22F6C62700BE7F55 /* Cluster_77.txt in Resources */,
 				A71AA7CC22F6C62700BE7F55 /* Cluster_126.txt in Resources */,
 				A71AA7A522F6C62700BE7F55 /* Cluster_116.txt in Resources */,
+				A71AA90C22F77B0C00BE7F55 /* ThreeGears_24@2x.png in Resources */,
 				A71AA7F022F6C62700BE7F55 /* Cluster_184.txt in Resources */,
 				A71AA78A22F6C62700BE7F55 /* Cluster_7.txt in Resources */,
 				A71AA7DC22F6C62700BE7F55 /* Cluster_137.txt in Resources */,
 				A71AA7CA22F6C62700BE7F55 /* Cluster_127.txt in Resources */,
 				A71AA83822F6C63B00BE7F55 /* 3Letter.txt in Resources */,
+				A71AA92722F77B0C00BE7F55 /* ThreeGears_22@2x.png in Resources */,
 				A71AA81022F6C62700BE7F55 /* Cluster_169.txt in Resources */,
+				A71AA90622F77B0C00BE7F55 /* ThreeGears_21@2x.png in Resources */,
 				A71AA7A122F6C62700BE7F55 /* Cluster_98.txt in Resources */,
 				A71AA81A22F6C62700BE7F55 /* Cluster_26.txt in Resources */,
+				A71AA8FA22F77B0C00BE7F55 /* ThreeGears_21@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1237,6 +1631,7 @@
 				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
 				A71AA87E22F722C700BE7F55 /* Persistent.swift in Sources */,
 				A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */,
+				A71AA93A22F77B0C00BE7F55 /* CircularProgressBar.swift in Sources */,
 				A71AA86A22F7018C00BE7F55 /* Swapper.swift in Sources */,
 				A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */,
 				A71AA86F22F703F500BE7F55 /* MadeUpQuality.swift in Sources */,
@@ -1255,6 +1650,7 @@
 				A71AA66D22F6C4BD00BE7F55 /* AppDelegate.swift in Sources */,
 				A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */,
 				A71AA86122F6F74A00BE7F55 /* NLProcessor.swift in Sources */,
+				A71AA93B22F77B0C00BE7F55 /* StartingEngine.swift in Sources */,
 				A71AA84F22F6C9BD00BE7F55 /* UIDeviceExtensions.swift in Sources */,
 				A71AA87922F70E4600BE7F55 /* Flavorizer.swift in Sources */,
 			);
