@@ -244,6 +244,8 @@
 		A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */; };
 		A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85722F6DA4E00BE7F55 /* Grams.swift */; };
 		A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85A22F6EEEE00BE7F55 /* KNearestNeighbors.swift */; };
+		A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA85D22F6F50100BE7F55 /* ToolBox.swift */; };
+		A71AA86122F6F74A00BE7F55 /* NLProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -486,6 +488,8 @@
 		A71AA85022F6C9CC00BE7F55 /* ConvenientExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenientExtensions.swift; sourceTree = "<group>"; };
 		A71AA85722F6DA4E00BE7F55 /* Grams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grams.swift; sourceTree = "<group>"; };
 		A71AA85A22F6EEEE00BE7F55 /* KNearestNeighbors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNearestNeighbors.swift; sourceTree = "<group>"; };
+		A71AA85D22F6F50100BE7F55 /* ToolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBox.swift; sourceTree = "<group>"; };
+		A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -541,6 +545,9 @@
 		A71AA68122F6C56600BE7F55 /* Model API */ = {
 			isa = PBXGroup;
 			children = (
+				A71AA86222F6F8D100BE7F55 /* Simple Assist Model */,
+				A71AA85F22F6F72500BE7F55 /* NLP */,
+				A71AA85C22F6F4F200BE7F55 /* ToolBox */,
 				A71AA85922F6EEAA00BE7F55 /* K Nearest Neighbors */,
 				A71AA85422F6D98400BE7F55 /* Grams */,
 				A71AA84622F6C69300BE7F55 /* FawGen Model */,
@@ -840,6 +847,29 @@
 			path = "K Nearest Neighbors";
 			sourceTree = "<group>";
 		};
+		A71AA85C22F6F4F200BE7F55 /* ToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA85D22F6F50100BE7F55 /* ToolBox.swift */,
+			);
+			path = ToolBox;
+			sourceTree = "<group>";
+		};
+		A71AA85F22F6F72500BE7F55 /* NLP */ = {
+			isa = PBXGroup;
+			children = (
+				A71AA86022F6F74A00BE7F55 /* NLProcessor.swift */,
+			);
+			path = NLP;
+			sourceTree = "<group>";
+		};
+		A71AA86222F6F8D100BE7F55 /* Simple Assist Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Simple Assist Model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1136,6 +1166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
+				A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */,
 				A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */,
 				A71AA66F22F6C4BD00BE7F55 /* ViewController.swift in Sources */,
 				A71AA84B22F6C6A700BE7F55 /* ModelConstants.swift in Sources */,
@@ -1144,6 +1175,7 @@
 				A71AA69D22F6C5D000BE7F55 /* Vector.swift in Sources */,
 				A71AA66D22F6C4BD00BE7F55 /* AppDelegate.swift in Sources */,
 				A71AA85122F6C9CC00BE7F55 /* ConvenientExtensions.swift in Sources */,
+				A71AA86122F6F74A00BE7F55 /* NLProcessor.swift in Sources */,
 				A71AA84F22F6C9BD00BE7F55 /* UIDeviceExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

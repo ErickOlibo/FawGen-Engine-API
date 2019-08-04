@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         model.delegate = self
         
         model.initialize()
-        printModelCounts(model)
+        //printModelCounts(model)
         
         let grams = Grams(model)
         print("GRAMS ==> biGramsChains count: \(grams.biGramChains.count)")
@@ -31,6 +31,8 @@ class ViewController: UIViewController {
         let kNN = KNearestNeighbors(model)
         print("KNN ==> Centroids Count: \(kNN.centroids.count)")
 
+        let toolBox = ToolBox(model, grams: grams, kNN: kNN)
+        print("ToolBox ==> Statements: \(toolBox.statements.count)")
         
         
     }
@@ -70,7 +72,7 @@ extension ViewController {
 
 extension ViewController: FawGenModelDelegate {
     func FawGenModelLoadingCompletion(at percent: Int) {
-        print("[FawGenModelLoadingCompletion] at \(percent)%")
+        //print("[FawGenModelLoadingCompletion] at \(percent)%")
     }
     
     
