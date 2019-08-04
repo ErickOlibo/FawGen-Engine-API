@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         
         model.initialize()
         printModelCounts(model)
+        
+        let grams = Grams(model)
+        print("GRAMS ==> biGramsChains count: \(grams.biGramChains.count)")
+        
+        print("RandomBiGramstart: \(grams.randomBiGramStart)")
+        print("Has Passed Grams checker for Defkut: \(grams.hasPassedGramsChecker("Defkut"))")
 //        let fawgenConstants = FawGenConstants.shared
 //        fawgenConstants.initialize(model)
 //        print("Shared 1 - FinalCorpus: \(fawgenConstants.finalCorpus.count)")
