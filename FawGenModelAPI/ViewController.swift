@@ -25,17 +25,10 @@ class ViewController: UIViewController {
         let grams = Grams(model)
         let kNN = KNearestNeighbors(model)
         let toolBox = ToolBox(model, grams: grams, kNN: kNN)
-        print("GRAMS ==> biGramsChains count: \(grams.biGramChains.count)")
-        print("RandomBiGramstart: \(grams.randomBiGramStart)")
-        print("Has Passed Grams checker for Defkut: \(grams.hasPassedGramsChecker("Defkut"))")
-        print("KNN ==> Centroids Count: \(kNN.centroids.count)")
-        print("[END ViewController] ToolBox ==> Statements: \(toolBox.statements.count)")
-        
         persistent = Persistent(model, kNN, toolBox)
     
         printDeviceInfo()
-  
-        
+        getAllTypesOfRandomWords()
         
     }
 
@@ -46,15 +39,46 @@ class ViewController: UIViewController {
 extension ViewController {
     
     private func printDeviceInfo() {
-        
         let device = UIDevice.current
         print("ModelName: \(device.modelName)")
         print("Processing Power: \(device.processingPower.rawValue)")
-        
+    }
+    
+    // UNIQUE Methods that returns all type of MadeUpWords for Keywords or None (Assist & Simple)
+    private func getAllTypesOfRandomWords() {
+
+        persistent.toolBox.requestedQuality = (nil, nil)
+        let empty = String()
+        guard let allWords = persistent.toolBox.generateMadeUpWords(from: empty) else { return }
+
+        var collection = [MadeUpAlgo : Set<MadeUpWord>]()
+        for type in MadeUpAlgo.allCases {
+            let group = allWords.filter { $0.madeUpAlgo == type }
+            guard group.count != 0 else { continue }
+            collection[type] = group
+        }
+
+        for (type, list) in collection {
+            print("type: \(type.rawValue) ==> ListCount: \(list.count)")
+        }
+        printResult(list: Array(allWords))
+
+    }
+    
+    private func printResult(list: [MadeUpWord]) {
+        print("PRINTSIZE OF LIST: \(list.count)")
+        let titlesList = list.map{ $0.title }.joined(separator: " - ")
+        //listOfWordsLabel.text = titlesList
+        print("\(titlesList)\n")
     }
     
     
 }
+
+
+
+
+
 
 extension ViewController: FawGenModelDelegate {
     func FawGenModelLoadingCompletion(at percent: Int) {
