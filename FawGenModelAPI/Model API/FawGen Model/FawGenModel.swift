@@ -71,7 +71,7 @@ class FawGenModel {
     public func initialize() {
         
         statements = loadListOfStatements()
-        //delegate?.FawGenModelLoadingCompletion(at: 4)
+        delegate?.FawGenModelLoadingCompletion(at: 4)
         
         biGramsStart = loadBiGramsStart()
         triGramsStart = loadTriGramStart()
@@ -81,23 +81,23 @@ class FawGenModel {
         wantedRightFourGramsSet = loadWantedRightFourGrams()
         
         finalCorpus = loadFinalCorpus()
-        //delegate?.FawGenModelLoadingCompletion(at: 6)
+        delegate?.FawGenModelLoadingCompletion(at: 6)
         
         (synonymsWordsRank, synonymsCorpus) = loadSynonymsTable()
-        //delegate?.FawGenModelLoadingCompletion(at: 16)
+        delegate?.FawGenModelLoadingCompletion(at: 16)
         
         biGramFrequencies = loadBiGramFrequencyTable()
         combinedVocabulary = createCombinedVocabulary()
-        //delegate?.FawGenModelLoadingCompletion(at: 17)
+        delegate?.FawGenModelLoadingCompletion(at: 17)
         
         (vectorsNameByLength, combinedNameByLength) = createNameByLengths()
-        //delegate?.FawGenModelLoadingCompletion(at: 30)
+        delegate?.FawGenModelLoadingCompletion(at: 30)
         
         biGramChains = biGramsStartChains()
-        //delegate?.FawGenModelLoadingCompletion(at: 33)
+        delegate?.FawGenModelLoadingCompletion(at: 33)
         
         triGramChains = triGramsStartChains()
-        //delegate?.FawGenModelLoadingCompletion(at: 37)
+        delegate?.FawGenModelLoadingCompletion(at: 37)
         
         // Load and assign WordToVecModel
         loadAndAssignWordToVecModel()

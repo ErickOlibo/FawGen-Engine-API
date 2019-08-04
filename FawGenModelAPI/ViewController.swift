@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let model = FawGenModel()
+        model.delegate = self
+        
         model.initialize()
         printModelCounts(model)
         
@@ -52,5 +54,13 @@ extension ViewController {
         print("[classificationByCentroids] Size: \(model.classificationByCentroids.count)")
         
     }
+    
+}
+
+extension ViewController: FawGenModelDelegate {
+    func FawGenModelLoadingCompletion(at percent: Int) {
+        print("[FawGenModelLoadingCompletion] at \(percent)%")
+    }
+    
     
 }
