@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         print("KNN ==> Centroids Count: \(kNN.centroids.count)")
 
         let toolBox = ToolBox(model, grams: grams, kNN: kNN)
-        print("ToolBox ==> Statements: \(toolBox.statements.count)")
+        print("[END ViewController] ToolBox ==> Statements: \(toolBox.statements.count)")
         
         
     }

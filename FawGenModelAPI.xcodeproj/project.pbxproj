@@ -252,6 +252,7 @@
 		A71AA86F22F703F500BE7F55 /* MadeUpQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86C22F703F500BE7F55 /* MadeUpQuality.swift */; };
 		A71AA87022F703F500BE7F55 /* MadeUpWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86D22F703F500BE7F55 /* MadeUpWord.swift */; };
 		A71AA87122F703F500BE7F55 /* RequestedQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86E22F703F500BE7F55 /* RequestedQuality.swift */; };
+		A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87222F706A700BE7F55 /* Substituter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -502,6 +503,7 @@
 		A71AA86C22F703F500BE7F55 /* MadeUpQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadeUpQuality.swift; sourceTree = "<group>"; };
 		A71AA86D22F703F500BE7F55 /* MadeUpWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadeUpWord.swift; sourceTree = "<group>"; };
 		A71AA86E22F703F500BE7F55 /* RequestedQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestedQuality.swift; sourceTree = "<group>"; };
+		A71AA87222F706A700BE7F55 /* Substituter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substituter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -898,6 +900,7 @@
 			isa = PBXGroup;
 			children = (
 				A71AA86922F7018C00BE7F55 /* Swapper.swift */,
+				A71AA87222F706A700BE7F55 /* Substituter.swift */,
 			);
 			path = Randomizers;
 			sourceTree = "<group>";
@@ -1210,6 +1213,7 @@
 				A71AA85822F6DA4E00BE7F55 /* Grams.swift in Sources */,
 				A71AA86422F6F9D700BE7F55 /* SimpleAssistModel.swift in Sources */,
 				A71AA86A22F7018C00BE7F55 /* Swapper.swift in Sources */,
+				A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */,
 				A71AA86F22F703F500BE7F55 /* MadeUpQuality.swift in Sources */,
 				A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */,
 				A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */,

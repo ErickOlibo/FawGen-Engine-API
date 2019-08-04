@@ -19,7 +19,6 @@ class Swapper {
     private let maxResultsPerType = ModelConstants.maxResultsPerTypeOfAlgorithm
     
     private var combinedVocabulary: Set<String>
-    
     private weak var model: FawGenModel!
     private weak var grams: Grams!
     

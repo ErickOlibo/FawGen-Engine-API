@@ -26,6 +26,7 @@ class ToolBox {
     private(set) var combinedVocabulary: Set<String>
     
     private(set) var swapper: Swapper
+    private(set) var substituter: Substituter
     
     private let simpleAssistModel: SimpleAssistModel
     private let synonymsFinder: SynonymsFinder
@@ -40,6 +41,7 @@ class ToolBox {
         simpleAssistModel = SimpleAssistModel(model, kNN: kNN)
         synonymsFinder = SynonymsFinder(model)
         swapper = Swapper(model, grams: grams)
+        substituter = Substituter(model, grams: grams)
         
     }
     
