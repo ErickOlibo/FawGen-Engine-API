@@ -47,9 +47,52 @@ public struct ModelConstants  {
     public static let numbCentroids = 5 // 5 is the default
     public static let numberOfNeighbors = 5 // default now: 5 --> ADJUST THIS NUMBER later if issues
     
+    public static let maxIterations = 100
+    public static let maxResultsPerTypeOfAlgorithm = 10
+    
+    // Alphabet, variations and blends
+    public static let alphabet : Set = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    public static let vowelsChar: [Character] = ["a", "e", "i", "o", "u", "y"]
+    public static let vowels: Set = ["a", "e", "i", "o", "u", "y"]
+    public static let consonants: Set = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"]
+    public static let consonantBlendStart: Set = ["bl", "br", "ch", "cl", "cr", "dr", "fl", "fr", "gl", "gr", "pl", "pr", "sc", "sh", "sk", "sl", "sm", "sn", "sp", "st", "sw", "th", "tr", "tw", "wh", "wr"]
+    public static let consonantBlendEnd: Set = ["ft", "ld", "lf", "lp", "lt", "mp", "nd", "ng", "nk", "nt", "pt", "sk", "sp", "st", "xt"]
+    public static let vowelBlend: Set = ["ai", "au", "ay", "ea", "ee", "ei", "eu", "ey", "ie", "oi", "oo", "ou", "oy"]
+    public static let cons = "C"
+    public static let vows = "V"
+    
     
     
 }
+
+
+// MARK: - Public Enum
+public enum SimilarityType {
+    case cosine, euclidean
+}
+
+
+/// Tells the type of Algorithm that was used to create a madeUpWord
+public enum MadeUpAlgo: String, CaseIterable, CustomStringConvertible, Codable {
+    case concat, markovChain, simpleSwap, startBlendSwap, endBlendSwap, vowelsBlendSwap, substitute, flavor
+    
+    public var description: String {
+        let descrp = self.rawValue
+        let result = descrp.prefix(1).capitalized + descrp.suffix(descrp.count - 1)
+        return result
+    }
+}
+
+
+
+// MARK: - Public methods
+public func isVowel(_ letter: String) -> Bool {
+    return ModelConstants.vowels.contains(letter)
+}
+
+
+
+
 
 // MARK: - Public Structs
 /// List of English Stop words as per NLP libraries (Spacy and NLTK)
@@ -60,7 +103,3 @@ public struct StopWords {
 
 
 
-// MARK: - Public Enum
-public enum SimilarityType {
-    case cosine, euclidean
-}
