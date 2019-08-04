@@ -254,6 +254,7 @@
 		A71AA87122F703F500BE7F55 /* RequestedQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA86E22F703F500BE7F55 /* RequestedQuality.swift */; };
 		A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87222F706A700BE7F55 /* Substituter.swift */; };
 		A71AA87522F7090300BE7F55 /* Concatenater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87422F7090300BE7F55 /* Concatenater.swift */; };
+		A71AA87722F70B8C00BE7F55 /* MarkovChainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -506,6 +507,7 @@
 		A71AA86E22F703F500BE7F55 /* RequestedQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestedQuality.swift; sourceTree = "<group>"; };
 		A71AA87222F706A700BE7F55 /* Substituter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substituter.swift; sourceTree = "<group>"; };
 		A71AA87422F7090300BE7F55 /* Concatenater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concatenater.swift; sourceTree = "<group>"; };
+		A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -904,6 +906,7 @@
 				A71AA86922F7018C00BE7F55 /* Swapper.swift */,
 				A71AA87222F706A700BE7F55 /* Substituter.swift */,
 				A71AA87422F7090300BE7F55 /* Concatenater.swift */,
+				A71AA87622F70B8C00BE7F55 /* MarkovChainer.swift */,
 			);
 			path = Randomizers;
 			sourceTree = "<group>";
@@ -1218,6 +1221,7 @@
 				A71AA86A22F7018C00BE7F55 /* Swapper.swift in Sources */,
 				A71AA87322F706A700BE7F55 /* Substituter.swift in Sources */,
 				A71AA86F22F703F500BE7F55 /* MadeUpQuality.swift in Sources */,
+				A71AA87722F70B8C00BE7F55 /* MarkovChainer.swift in Sources */,
 				A71AA85E22F6F50100BE7F55 /* ToolBox.swift in Sources */,
 				A71AA85B22F6EEEE00BE7F55 /* KNearestNeighbors.swift in Sources */,
 				A71AA87022F703F500BE7F55 /* MadeUpWord.swift in Sources */,

@@ -30,6 +30,7 @@ class ToolBox {
     private(set) var swapper: Swapper
     private(set) var substituter: Substituter
     private(set) var concatenater: Concatenater
+    private(set) var markovChainer: MarkovChainer
     
     
     private let simpleAssistModel: SimpleAssistModel
@@ -47,6 +48,7 @@ class ToolBox {
         swapper = Swapper(model, grams: grams)
         substituter = Substituter(model, grams: grams)
         concatenater = Concatenater(model, grams: grams)
+        markovChainer = MarkovChainer(model, grams: grams)
         
     }
     
