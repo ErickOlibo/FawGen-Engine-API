@@ -58,8 +58,8 @@ extension ViewController {
     private func getAllTypesOfRandomWords() {
 
         persistent.toolBox.requestedQuality = (nil, nil)
-        let empty = String()
-        guard let allWords = persistent.toolBox.generateMadeUpWords(from: empty) else { return }
+        let keywords = String()
+        guard let allWords = persistent.toolBox.generateMadeUpWords(from: keywords) else { return }
 
         var collection = [MadeUpAlgo : Set<MadeUpWord>]()
         for type in MadeUpAlgo.allCases {
