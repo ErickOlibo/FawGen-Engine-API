@@ -351,6 +351,7 @@
 		A71AA93922F77B0C00BE7F55 /* StartingEngine.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71AA8DB22F77B0B00BE7F55 /* StartingEngine.xib */; };
 		A71AA93A22F77B0C00BE7F55 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA8DD22F77B0B00BE7F55 /* CircularProgressBar.swift */; };
 		A71AA93B22F77B0C00BE7F55 /* StartingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71AA8DE22F77B0B00BE7F55 /* StartingEngine.swift */; };
+		A75FA5BC2392DA7200483BE6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A75FA5BB2392DA7200483BE6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -700,6 +701,7 @@
 		A71AA8DB22F77B0B00BE7F55 /* StartingEngine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartingEngine.xib; sourceTree = "<group>"; };
 		A71AA8DD22F77B0B00BE7F55 /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		A71AA8DE22F77B0B00BE7F55 /* StartingEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingEngine.swift; sourceTree = "<group>"; };
+		A75FA5BB2392DA7200483BE6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -716,6 +718,7 @@
 		A71AA66022F6C4BD00BE7F55 = {
 			isa = PBXGroup;
 			children = (
+				A75FA5BB2392DA7200483BE6 /* README.md */,
 				A71AA67F22F6C51700BE7F55 /* Default-568h@2x.png */,
 				A71AA66B22F6C4BD00BE7F55 /* FawGenModelAPI */,
 				A71AA66A22F6C4BD00BE7F55 /* Products */,
@@ -1341,6 +1344,7 @@
 				A71AA7A222F6C62700BE7F55 /* Cluster_1.txt in Resources */,
 				A71AA8F722F77B0B00BE7F55 /* ThreeGears_7@3x.png in Resources */,
 				A71AA90522F77B0C00BE7F55 /* ThreeGears_28@1x.png in Resources */,
+				A75FA5BC2392DA7200483BE6 /* README.md in Resources */,
 				A71AA78F22F6C62700BE7F55 /* Cluster_74.txt in Resources */,
 				A71AA7CE22F6C62700BE7F55 /* Cluster_81.txt in Resources */,
 				A71AA8FB22F77B0C00BE7F55 /* ThreeGears_19@2x.png in Resources */,
